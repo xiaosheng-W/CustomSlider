@@ -13,9 +13,7 @@
 		34D53B3923B1A497000DF050 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34D53B3723B1A497000DF050 /* LaunchScreen.storyboard */; };
 		34D53B3C23B1A497000DF050 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D53B3B23B1A497000DF050 /* main.m */; };
 		34D53B5223B1A54C000DF050 /* XJSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D53B4523B1A54C000DF050 /* XJSlider.m */; };
-		34D53B5323B1A54C000DF050 /* XJRGBControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D53B4623B1A54C000DF050 /* XJRGBControl.m */; };
 		34D53B5423B1A54C000DF050 /* XJSliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D53B4923B1A54C000DF050 /* XJSliderView.m */; };
-		34D53B5723B1A54C000DF050 /* XJTempControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D53B5023B1A54C000DF050 /* XJTempControl.m */; };
 		359B638B3A2F194AB50599EC /* Pods_XJCustomSlider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 474912B36AE95CDEA9BAE8BB /* Pods_XJCustomSlider.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,13 +29,9 @@
 		34D53B3A23B1A497000DF050 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34D53B3B23B1A497000DF050 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		34D53B4523B1A54C000DF050 /* XJSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XJSlider.m; sourceTree = "<group>"; };
-		34D53B4623B1A54C000DF050 /* XJRGBControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XJRGBControl.m; sourceTree = "<group>"; };
-		34D53B4723B1A54C000DF050 /* XJTempControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XJTempControl.h; sourceTree = "<group>"; };
 		34D53B4923B1A54C000DF050 /* XJSliderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XJSliderView.m; sourceTree = "<group>"; };
-		34D53B4C23B1A54C000DF050 /* XJRGBControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XJRGBControl.h; sourceTree = "<group>"; };
 		34D53B4D23B1A54C000DF050 /* XJSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XJSlider.h; sourceTree = "<group>"; };
 		34D53B4E23B1A54C000DF050 /* XJSliderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XJSliderView.h; sourceTree = "<group>"; };
-		34D53B5023B1A54C000DF050 /* XJTempControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XJTempControl.m; sourceTree = "<group>"; };
 		474912B36AE95CDEA9BAE8BB /* Pods_XJCustomSlider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XJCustomSlider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB1D17F129FDFCDB2F6D1259 /* Pods-XJCustomSlider.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XJCustomSlider.release.xcconfig"; path = "Target Support Files/Pods-XJCustomSlider/Pods-XJCustomSlider.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -112,10 +106,6 @@
 				34D53B4523B1A54C000DF050 /* XJSlider.m */,
 				34D53B4E23B1A54C000DF050 /* XJSliderView.h */,
 				34D53B4923B1A54C000DF050 /* XJSliderView.m */,
-				34D53B4C23B1A54C000DF050 /* XJRGBControl.h */,
-				34D53B4623B1A54C000DF050 /* XJRGBControl.m */,
-				34D53B4723B1A54C000DF050 /* XJTempControl.h */,
-				34D53B5023B1A54C000DF050 /* XJTempControl.m */,
 			);
 			path = JHome;
 			sourceTree = "<group>";
@@ -234,12 +224,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				34D53B5423B1A54C000DF050 /* XJSliderView.m in Sources */,
-				34D53B5723B1A54C000DF050 /* XJTempControl.m in Sources */,
 				34D53B3123B1A492000DF050 /* ViewController.m in Sources */,
 				34D53B2B23B1A492000DF050 /* AppDelegate.m in Sources */,
 				34D53B3C23B1A497000DF050 /* main.m in Sources */,
 				34D53B5223B1A54C000DF050 /* XJSlider.m in Sources */,
-				34D53B5323B1A54C000DF050 /* XJRGBControl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
