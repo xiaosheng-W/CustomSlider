@@ -22,6 +22,7 @@ DerivedData/
 *.perspectivev3
 !default.perspectivev3
 Pods
+Podfile.lock
 
 ## Obj-C/Swift specific
 *.hmap
