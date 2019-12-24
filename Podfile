@@ -6,7 +6,6 @@ target 'XJCustomSlider' do
   use_frameworks!
 
   # Pods for XJCustomSlider
-  pod 'Masonry'
   pod 'RGUIKit'
 
 end

@@ -3,127 +3,91 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		057481CB285CB8ED9DBFDDCE2F6D9C95 /* NSObject+RGObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = 5111EADD91795F3A6D9B8AD0B8D66D46 /* NSObject+RGObserver.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		05A040F35BF1C88F869404E1A940B493 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EA52CE1E9DF54D82ADBAFD29D2B67F1 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		05A28591AF3CA796C6877F114C44D93E /* RGBluuurView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B33C19B3EBF04624FBBAD7062F72316 /* RGBluuurView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		05EA1447EEA0EB669F8DEE73964A7C60 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = A27E8AB7993409CE219F56417088C1B4 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		08C5F20ACDC2154BE9978371F632E3CE /* UIColor+RGTint.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3DF32494A57A9C67B2F4912F97E3CD /* UIColor+RGTint.m */; };
-		094C13F3A3553443A8E8A13C2651C4CF /* UIViewController+RGSafeArea.h in Headers */ = {isa = PBXBuildFile; fileRef = F5584917F48F1FB3577906B5268B08B0 /* UIViewController+RGSafeArea.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0967598607D521318F69D7D39D517B20 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = E245BCB8648AD563FBF4C38D3EBC077A /* ViewController+MASAdditions.m */; };
-		098630ECDB64ED7B89F5F687C82B4AC3 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE8CF13D6E32DC545A79C4D2FB213C2 /* NSArray+MASAdditions.m */; };
-		0AF1AD35706D90B1A91F291B899EF8C0 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = AA23EE35085F46B8231E9507F624E50E /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0B3B4D9FC9AF752B18BCF3AEE9045574 /* RGIconCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6088CAF11001F3D4891EA11025AA4EAD /* RGIconCell.m */; };
-		10FD44B6D17A488CD50CDF3CBAC805CD /* RGToastView.h in Headers */ = {isa = PBXBuildFile; fileRef = E6C1F9BF67B5AE5C2DA15DF299023E09 /* RGToastView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		120FF36A03F33D7569EC7F4D4CB44751 /* UIImage+RGIconCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 074A7F49BC30F0387B7AF7157C62C532 /* UIImage+RGIconCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		14323DC08FE383BC17DA7BD901F11344 /* UIScrollView+RGInset.m in Sources */ = {isa = PBXBuildFile; fileRef = 69F24E8CAD196CF0A56604FFA96D84BA /* UIScrollView+RGInset.m */; };
-		16236B5B6CAF883406644E7097368923 /* UIViewController+RGBarFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 166F526E105B7DEAA2E784B8AF64EF1A /* UIViewController+RGBarFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		17B1CC4AE0A5B36360F7F9AA2B796759 /* RGTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F14FCDFB60E57FDFCAC251D17EFE7DF /* RGTableViewCell.m */; };
-		1972E85F0FCD0F3EAF28ED7CD036286E /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BAF0CBB1A0F356DA66BB9F1A9089299 /* Masonry-dummy.m */; };
-		1A93A38D711C6AFDAFBBDA6FB1B12C3E /* RGTimePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = F4CE974ADA925FE0413100C88D22A2A2 /* RGTimePicker.m */; };
-		1BC9E81E6B4DF84CB579BA77D2B9D226 /* UIViewController+RGBarFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF0C293C9025D4EFC726004382EB60E /* UIViewController+RGBarFrame.m */; };
-		1BF5E280849EEFE688E7D9F1B9B130C9 /* UIBezierPath+RGDraw.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F43AA688EAFAD5F656A0E6CC7CB55C /* UIBezierPath+RGDraw.m */; };
-		1C388F5745C0407C1DFEC25AF2B0E856 /* UIView+RGLayoutHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = 092C5EBE83FC9ADA94B574EC1FD876CF /* UIView+RGLayoutHelp.m */; };
-		1E716F579E0B0592115A9C9A76D37F5A /* RGInputTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 526577617D3DFC38C3062B028F6A39C3 /* RGInputTableViewCell.m */; };
+		057481CB285CB8ED9DBFDDCE2F6D9C95 /* NSObject+RGObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = 993CEE9D404818AFBA63A41FA905DE4A /* NSObject+RGObserver.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05A28591AF3CA796C6877F114C44D93E /* RGBluuurView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A51F23DBC5EC8BEC58386BB6BC6AF42 /* RGBluuurView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08C5F20ACDC2154BE9978371F632E3CE /* UIColor+RGTint.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A06DE55C34442532008A556B719B49 /* UIColor+RGTint.m */; };
+		08D0ED35832828D6995B06C88332B52C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		094C13F3A3553443A8E8A13C2651C4CF /* UIViewController+RGSafeArea.h in Headers */ = {isa = PBXBuildFile; fileRef = E3172FB7193F263A2973A1096EC92077 /* UIViewController+RGSafeArea.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B3B4D9FC9AF752B18BCF3AEE9045574 /* RGIconCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6AEFB5F8E28C1E2D839B7CCDB69B01 /* RGIconCell.m */; };
+		10FD44B6D17A488CD50CDF3CBAC805CD /* RGToastView.h in Headers */ = {isa = PBXBuildFile; fileRef = D0D39839173FD653490995ABBA1B9E9B /* RGToastView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		120FF36A03F33D7569EC7F4D4CB44751 /* UIImage+RGIconCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DD3599F5E4FF345FFEEB6CFB632DBE3 /* UIImage+RGIconCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		14323DC08FE383BC17DA7BD901F11344 /* UIScrollView+RGInset.m in Sources */ = {isa = PBXBuildFile; fileRef = C0467B84E67F2B8A57403054EF34D2F1 /* UIScrollView+RGInset.m */; };
+		16236B5B6CAF883406644E7097368923 /* UIViewController+RGBarFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = FB83C2D70932DA91C689755E4BD9C167 /* UIViewController+RGBarFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17B1CC4AE0A5B36360F7F9AA2B796759 /* RGTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BBC5EBBAA7D98DE524DEE49713FA18A6 /* RGTableViewCell.m */; };
+		1A93A38D711C6AFDAFBBDA6FB1B12C3E /* RGTimePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 556720FA8C1B055923D4D24BF9B3932A /* RGTimePicker.m */; };
+		1B826FA04161D0606D9A3DE797B1810E /* Pods-XJCustomSlider-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 77CE19498411EC71E8C8A1D9E9B6DC0D /* Pods-XJCustomSlider-dummy.m */; };
+		1BC9E81E6B4DF84CB579BA77D2B9D226 /* UIViewController+RGBarFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B1ECEE6752B76836757E2587FBE60BF /* UIViewController+RGBarFrame.m */; };
+		1BF5E280849EEFE688E7D9F1B9B130C9 /* UIBezierPath+RGDraw.m in Sources */ = {isa = PBXBuildFile; fileRef = 85DA3BEAFE316DC82B8591DF6970B95B /* UIBezierPath+RGDraw.m */; };
+		1C388F5745C0407C1DFEC25AF2B0E856 /* UIView+RGLayoutHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = A54C871AEBE4E3F9BEE44A2571DE23EB /* UIView+RGLayoutHelp.m */; };
+		1E716F579E0B0592115A9C9A76D37F5A /* RGInputTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C233628F64FE115F9D519A710D45005A /* RGInputTableViewCell.m */; };
 		1F5A9B5E3EF01239D209E4473A839E3A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
-		280D36330BAC5715615FF4A8B42D60D6 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 93039B0A7194F7E0669D173143155361 /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		297A3627CF2F032CBFDC61D1A3786E63 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = D97ECD4AF5376D955C51876592B28D5A /* MASViewAttribute.m */; };
-		2A415A785E84E0D06BEA490D92A076C7 /* UIImage+RGImageEdit.m in Sources */ = {isa = PBXBuildFile; fileRef = 9524B9AEE00CC1986F5CB2EFBD31D32A /* UIImage+RGImageEdit.m */; };
-		2A5EAC110E4C7D1F0A20E38520D19D78 /* UINavigationController+RGShouldPop.h in Headers */ = {isa = PBXBuildFile; fileRef = A05D127F5BFC2C2B66C6392E412368B8 /* UINavigationController+RGShouldPop.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2B88F1670BB9188B9CC552B24C2A3245 /* UIImage+RGTint.m in Sources */ = {isa = PBXBuildFile; fileRef = 819F190EF584E2D8B391E8A28BDF9CDB /* UIImage+RGTint.m */; };
-		2BE938FCEB9EBDCD83FB3019E590D7E1 /* UIImage+RGSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA57B749557AB1EED958D2DA41243D6 /* UIImage+RGSize.m */; };
-		2F4176FCF4BDEFF31FD6BD4DAE645157 /* RGToastView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B07EEC3CFDDA6D5D157020F44EB8BAE /* RGToastView.m */; };
-		307AA9A80CF954325A87CE0B78E1C34C /* UITabBar+RGBadge.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E5087CDB1EB00BEC0A469AD73E302D2 /* UITabBar+RGBadge.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		346080C0D1CA23399ADD739D722D7CEF /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B85C78BF18EB95600A364E3976AFFFB /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		357156B9BEB04AAD0E2E6BE9FD58629A /* RGEdgeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 57E88C4775E8335ED0251340B92CBD76 /* RGEdgeTableViewCell.m */; };
-		36E17D422B4CDC0C7FE14993063FFC60 /* RGUIKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2708DD81563A7A6918731E74E9020528 /* RGUIKit-dummy.m */; };
-		3DA5F1D8E51CDD102A871C2F37770C7B /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 4447853AC5BE5F57574CAC078AF265E6 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		44CA383810AD0B759DB21177C2B8BE1F /* UIImage+RGTint.h in Headers */ = {isa = PBXBuildFile; fileRef = CE632C9BCD45D64AC14045271AD1A08D /* UIImage+RGTint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		478FD175EB5E8A4192CD28EFA3566CB1 /* NSNull+RGSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7154D78D6C5AF312B8683DF19586F5 /* NSNull+RGSafe.m */; };
-		4A8D239F37B45179E31CB9B5DCE5E753 /* NSNull+RGSafe.h in Headers */ = {isa = PBXBuildFile; fileRef = C09951583B7F6A862D042106B68ECE09 /* NSNull+RGSafe.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4B0981F9AC628CF5100C50FF4A163A4A /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = DECAD9A28ED1CA8CB05181ECD20BC05E /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4BB322FFBF85F61AB4CD8894680F5321 /* RGEdgeTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = D44CCEC61AAB6BABB85F3CE9184F232D /* RGEdgeTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5135C2F42AD060A508DDE6AA12905A49 /* RGIconCell.h in Headers */ = {isa = PBXBuildFile; fileRef = C105941F91C3824048975B51BA98CB3F /* RGIconCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		51E14FB01299C661327F8D1399ED4F86 /* UIViewController+RGSafeArea.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D3B60A84F4EE493E896064167A11A68 /* UIViewController+RGSafeArea.m */; };
-		54ADAA6EED4EC92EF66234F3A4D234B1 /* UIAlertController+Chainable.h in Headers */ = {isa = PBXBuildFile; fileRef = 535E09D346D59D75FBD4E9845DFFF62B /* UIAlertController+Chainable.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		55984900E28D46EF900F5828A6F06662 /* UIImage+RGImageEdit.h in Headers */ = {isa = PBXBuildFile; fileRef = 781E4EB73FBDA11F9BC40A108B38315F /* UIImage+RGImageEdit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5614C9274178E4B803F57CFA1775EAE9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
-		5B26AEA9643248223794BF5D2C51917F /* RGNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = EDFC5C367B5B5B27836862119CE4FE71 /* RGNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6385F58AD5F7503BDF759EEB7649D61A /* UIImage+RGRead.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A79775A31557DAB82D10140DFE83872 /* UIImage+RGRead.m */; };
-		64EF1BB8AF93027A33EDAEE6AFBBEA50 /* UIImage+RGName.h in Headers */ = {isa = PBXBuildFile; fileRef = C629ED62A44731BBC0F2085532659223 /* UIImage+RGName.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6792B30479B896C2BC2D0C218F32BA75 /* NSDate+RGFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = 333F0E7D07893FE6C2C5FA1EA7F47362 /* NSDate+RGFormat.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6A6AD3A5BBDBFD0B4AF936BD518EC0B1 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A07571F8B7D861AEF635B6D047B2E05 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6CA5A6B311CE30DE5BE9B2262241F450 /* UIImage+RGName.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B710112F0E0409225CF91CC0367F04B /* UIImage+RGName.m */; };
-		70DD85B912CAAC49B5BBE286B34C88A2 /* NSTimer+RGBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D387CF8C27DEF59A7B801991387D99 /* NSTimer+RGBlock.m */; };
-		7406607FE98E490AFC0F79E8ED9DFCD9 /* UIView+RGParentVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB518E8DFAA082471139D5C3D3EE9A0 /* UIView+RGParentVC.m */; };
-		744294ED8C57863F9AD2D7F088A19677 /* UIColor+RGTint.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ADA410CE8C462089DF33E6F0366BBF0 /* UIColor+RGTint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		76914E9FF898FE4409167D577E1FBE7F /* RGLabelTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 714FFF9CEE84F5017D87452CFFF749C3 /* RGLabelTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		76B7D2CB34457134DAA4F16D5A20C928 /* NSObject+RGRunTime.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD477AE607B416C58976AE3021B81CE /* NSObject+RGRunTime.m */; };
-		77EAE97BCB3CF1654BE25AB80AE60336 /* NSObject+RGRunTime.h in Headers */ = {isa = PBXBuildFile; fileRef = C38B89AA6DED33CB796BCEE01D8E494F /* NSObject+RGRunTime.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		78521CAB2BE21125D9F9EFC71991D663 /* UIView+RGParentVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 67D914139D16D0A84797C270E51C81DC /* UIView+RGParentVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A415A785E84E0D06BEA490D92A076C7 /* UIImage+RGImageEdit.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A2FE96B0063A94159054F677BAA725 /* UIImage+RGImageEdit.m */; };
+		2A5EAC110E4C7D1F0A20E38520D19D78 /* UINavigationController+RGShouldPop.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B4C076A18A8ACD22EBCF011A8588D2 /* UINavigationController+RGShouldPop.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B88F1670BB9188B9CC552B24C2A3245 /* UIImage+RGTint.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD19C5C47E2A5321691155BDD7D0E22 /* UIImage+RGTint.m */; };
+		2BE938FCEB9EBDCD83FB3019E590D7E1 /* UIImage+RGSize.m in Sources */ = {isa = PBXBuildFile; fileRef = DB33DD9ED8DBE2BB7F9F848F861F9720 /* UIImage+RGSize.m */; };
+		2F4176FCF4BDEFF31FD6BD4DAE645157 /* RGToastView.m in Sources */ = {isa = PBXBuildFile; fileRef = 31399B805F9FD412D26F3D9DE7A9A8E1 /* RGToastView.m */; };
+		307AA9A80CF954325A87CE0B78E1C34C /* UITabBar+RGBadge.h in Headers */ = {isa = PBXBuildFile; fileRef = 81DE1365DEC0568DB0B0FF5AF896B7AE /* UITabBar+RGBadge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		357156B9BEB04AAD0E2E6BE9FD58629A /* RGEdgeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B1C220A2B658C70B5F135FBAE87C72 /* RGEdgeTableViewCell.m */; };
+		36E17D422B4CDC0C7FE14993063FFC60 /* RGUIKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E1CF0A82090DD4EFD5279CD7EAB663 /* RGUIKit-dummy.m */; };
+		44CA383810AD0B759DB21177C2B8BE1F /* UIImage+RGTint.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C34BFE945FFF1DFA0792A89EDCFCC87 /* UIImage+RGTint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		478FD175EB5E8A4192CD28EFA3566CB1 /* NSNull+RGSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = A17BE8555791B9362920ECFD033315E2 /* NSNull+RGSafe.m */; };
+		4A8D239F37B45179E31CB9B5DCE5E753 /* NSNull+RGSafe.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68107C943BE0BA961F9A5AD21CC062 /* NSNull+RGSafe.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4BB322FFBF85F61AB4CD8894680F5321 /* RGEdgeTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = ADAB5A5BDBA4ACDC909C1F24FA66E67F /* RGEdgeTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5135C2F42AD060A508DDE6AA12905A49 /* RGIconCell.h in Headers */ = {isa = PBXBuildFile; fileRef = EF8B059307C0F2DD6E0DBC890199C8FC /* RGIconCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		51E14FB01299C661327F8D1399ED4F86 /* UIViewController+RGSafeArea.m in Sources */ = {isa = PBXBuildFile; fileRef = EED776630F9672E35C1710F8B530E811 /* UIViewController+RGSafeArea.m */; };
+		54ADAA6EED4EC92EF66234F3A4D234B1 /* UIAlertController+Chainable.h in Headers */ = {isa = PBXBuildFile; fileRef = 837FFC7C165EDC67BB59391F73B93656 /* UIAlertController+Chainable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55984900E28D46EF900F5828A6F06662 /* UIImage+RGImageEdit.h in Headers */ = {isa = PBXBuildFile; fileRef = E0DC0853D864EDDF714AB740D35AD244 /* UIImage+RGImageEdit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B26AEA9643248223794BF5D2C51917F /* RGNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 134133F9CB862B7612789ED41C073994 /* RGNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6385F58AD5F7503BDF759EEB7649D61A /* UIImage+RGRead.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FC7705F1EF7F46A3D19BA1C43B6E71 /* UIImage+RGRead.m */; };
+		64EF1BB8AF93027A33EDAEE6AFBBEA50 /* UIImage+RGName.h in Headers */ = {isa = PBXBuildFile; fileRef = D605BA4C5EC1380C7A92985C94F52DB0 /* UIImage+RGName.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6792B30479B896C2BC2D0C218F32BA75 /* NSDate+RGFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D457DA019CB70513E82A0B0AB42335F /* NSDate+RGFormat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6CA5A6B311CE30DE5BE9B2262241F450 /* UIImage+RGName.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D85F4578EEE47D9FA8A1304E04DDBD0 /* UIImage+RGName.m */; };
+		70DD85B912CAAC49B5BBE286B34C88A2 /* NSTimer+RGBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B705259819D492196B51A73651F8A96 /* NSTimer+RGBlock.m */; };
+		7406607FE98E490AFC0F79E8ED9DFCD9 /* UIView+RGParentVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6E6B899ECF4729042A7FE3AF1D0B49 /* UIView+RGParentVC.m */; };
+		744294ED8C57863F9AD2D7F088A19677 /* UIColor+RGTint.h in Headers */ = {isa = PBXBuildFile; fileRef = EC861C96E4B514D84A24ADA0FEC8117F /* UIColor+RGTint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76914E9FF898FE4409167D577E1FBE7F /* RGLabelTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = C60BC6655A440E26BBF6D3E77621FCC1 /* RGLabelTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76B7D2CB34457134DAA4F16D5A20C928 /* NSObject+RGRunTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 3872FFABCEFBFDFCCCE007D74A92D375 /* NSObject+RGRunTime.m */; };
+		77EAE97BCB3CF1654BE25AB80AE60336 /* NSObject+RGRunTime.h in Headers */ = {isa = PBXBuildFile; fileRef = E18A8FF9EC27958B37192F48B8D66C07 /* NSObject+RGRunTime.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78521CAB2BE21125D9F9EFC71991D663 /* UIView+RGParentVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 7815CF40867F3611513C719CDCEDBFB8 /* UIView+RGParentVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7876AFB6A090E1B38B3F38996E5B4C63 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
-		78B2727EE5D693F58D019DB098005101 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = ADFA151143BEB1D9A03E931CAC4AEA5B /* MASConstraintMaker.m */; };
-		7BFF65958F014760B6AC4742824892EB /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = C50A63FFD2759F802B4121A953F1D9AD /* MASCompositeConstraint.m */; };
-		806EA6A55D1458556C6FA159A2389DF7 /* UIColor+RGColorGet.h in Headers */ = {isa = PBXBuildFile; fileRef = C7CE8B12A83CFC935071698E864F756B /* UIColor+RGColorGet.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		84DD54D8B519F3BEE98946650BD2C1B2 /* UIViewController+RGPresent.h in Headers */ = {isa = PBXBuildFile; fileRef = A0DC17F31227F6EB9EEB7585A411A247 /* UIViewController+RGPresent.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8520DFC5B785D44712CE82B6898A649C /* UIScrollView+RGInset.h in Headers */ = {isa = PBXBuildFile; fileRef = 97B9DA03102807F663F00113114577B1 /* UIScrollView+RGInset.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8539B851E01A58467BE49CA3FA77223C /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC9426078E5336CABBE1A75250B0E52 /* MASLayoutConstraint.m */; };
-		8724197DF0FF3ACA721D19110B525617 /* RGCornerTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BE815275C372091497A0C0B983F9FF0 /* RGCornerTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		89AAB9DFD6A42BA955CE3E1828AFDD49 /* NSDate+RGFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = F10B7E7C9B806343EC7555F9C3A7D6DA /* NSDate+RGFormat.m */; };
-		8B92011C9373001132C8148BFC8F50B3 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = CFC2FB6FD6E911616F720B11F588CAEE /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8D4D1F6E4709EBB13974E95DC1059DDC /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B0A870C35EA42675D9E77E70AFD2F13 /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8D65CE579E516BDD5FB36CAA21D693F6 /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 180B6C3A35E213210E6B154ECD87D775 /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		921D63B13055E0FC4A60ABE0BF2FBA1F /* Pods-XJCustomSlider-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 77CE19498411EC71E8C8A1D9E9B6DC0D /* Pods-XJCustomSlider-dummy.m */; };
-		941955A19C40899D275604E6E9C21A6D /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = DF72416504C22E24D8AB90EADD88A36C /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9722323BF70D86B2C74030331C10EA35 /* RGUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 417E559B19E02B8073953E5C503D8925 /* RGUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9D546E1168C04B0B2EAE005D9275D18B /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = B05C8438F9FBDD638E61A2B0B1FEF27D /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9E9AEB13F273096620BB4DC795B3E974 /* RGCornerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 94DC594B747170AC8807A972411B1666 /* RGCornerTableViewCell.m */; };
-		A35FBEEC7D088AEC05297E8292A32C77 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EEDA8E26E34936D126B18EAF68B5EA5 /* View+MASAdditions.m */; };
-		A3D88D0B825163A03A2C031C5A5F7451 /* UITabBar+RGBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C747AC65EAC37316B89D85285004C4 /* UITabBar+RGBadge.m */; };
-		A451EB8B532A04B3C9137C6F429D738F /* RGInputTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 61F88A5FB59817340EE5DA68A8BEB93A /* RGInputTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A6912BEB6E399BAAED745DD06E233A89 /* Pods-XJCustomSlider-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B36F307641D62452B1DDEB4C7A751322 /* Pods-XJCustomSlider-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A70B1B1C3792114277C2BC69F3010289 /* UIView+RGPanGestureHelp.h in Headers */ = {isa = PBXBuildFile; fileRef = AB9B949044C1194AC5AC39F9CB9377A6 /* UIView+RGPanGestureHelp.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A7D0A5907FB5BC28FF2042117AB73FF7 /* UIBezierPath+RGDraw.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A938800EF3C235F95BB13A1378C9887 /* UIBezierPath+RGDraw.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A7E860494AAF1F691138754C69C9A8E7 /* UIView+RGLayoutHelp.h in Headers */ = {isa = PBXBuildFile; fileRef = E219C7BFEB6CBF08F3E690731C4F7D11 /* UIView+RGLayoutHelp.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE0B489A597736C1077305D70DD1AAEE /* UIColor+RGColorGet.m in Sources */ = {isa = PBXBuildFile; fileRef = DE74B9B48FC381F5BCD6C6EE9452ACD8 /* UIColor+RGColorGet.m */; };
-		B4332719FF3C5061982C59FD5A2ED739 /* RGBluuurView.m in Sources */ = {isa = PBXBuildFile; fileRef = D1652E1B1AA3F26DCD42E4D851031A79 /* RGBluuurView.m */; };
-		B7D645EC004610E8A581E532D28771EC /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 3678EA3B92303575B17420B13E7F0CE5 /* MASViewConstraint.m */; };
-		B7E18E24472FA0528BA87A097FB0E6B3 /* UIAlertController+Chainable.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E2F92D29B68B34CD481E5EBC7062B73 /* UIAlertController+Chainable.m */; };
-		C0861ADB4C5FA30F4F9E051F7638A264 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DA363C0534C892248B6C3636CA337876 /* NSLayoutConstraint+MASDebugAdditions.m */; };
-		C28E9E3569241955A030BF691ADB384E /* RGNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A41B79F3D532BF29569247EC9D6013DB /* RGNavigationController.m */; };
-		C3D1FD173D2D226626CFED351A85A86C /* NSObject+RGObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 36450332A08133359D3BEC1EA260E7D9 /* NSObject+RGObserver.m */; };
-		C82504D948F541B6CDB6AA233C035CA3 /* RGTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = CB9708EDE4E43D93E722AE0FB3D193D6 /* RGTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CE93C54413259B4AC3683B6EB874D466 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
-		D33E3A9E880956FAC63BD422897F6B8C /* UIImage+RGSize.h in Headers */ = {isa = PBXBuildFile; fileRef = CFDEAC81CD0654FAC947DAB8DD2A4836 /* UIImage+RGSize.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D913791318D598ED080E48F3DE159308 /* UIImage+RGIconCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C5EBCB45F72FF082C09F45CF744BC1 /* UIImage+RGIconCell.m */; };
-		D9DCDAAB8DE4D2D14D94292CA54A529C /* RGBluuur.h in Headers */ = {isa = PBXBuildFile; fileRef = 29F39B58E589909548787A51A77F3970 /* RGBluuur.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E51F496BDC6ACADE04FDA059C6CB2342 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
-		E720065EE172E212E05997C021C88AED /* RGTimePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = D57AE9310D1F4D3C829F24A6309A594D /* RGTimePicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E7CA20228B3583F41927813EE904CAD3 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 72DA745045429F845F5EBD1330C0183B /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E8DD5D1D406150E1C80AD015271B6848 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = F9A888BE6C5C6CE7ED8690B89CD303E8 /* MASConstraint.m */; };
-		E94883602C0E2120D3AFC1812333C877 /* RGUIKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F70E9897688EA08DE1F79BC686CC26C /* RGUIKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EAE8B0895956885A752B173683A0D889 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C7086349275B4AB4FAA3864BD1E1C14 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EE29FC9673F073387566BF4FA187112D /* RGLabelTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C9B0BE0D9CD1B9122F1282884BD34099 /* RGLabelTableViewCell.m */; };
-		F121BBB65E853B237C0308FCF2B8D02D /* UIViewController+RGPresent.m in Sources */ = {isa = PBXBuildFile; fileRef = B317D694C67C6E5B847677276F5BDDE6 /* UIViewController+RGPresent.m */; };
-		F54DB3C714863CD8543A092375D08344 /* NSTimer+RGBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = C8C9E52CFC2FC8AFAF8F3F7D32AA4A9A /* NSTimer+RGBlock.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F62CB8BD4A8DB3C381864B55E8E31C6C /* UIImage+RGRead.h in Headers */ = {isa = PBXBuildFile; fileRef = 0468A383B7B240C31D0B6785008ABD2E /* UIImage+RGRead.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F8DC7E4C2CDE7DE78A6FD5869C5CE73E /* UIView+RGPanGestureHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = F97444DCE6C06B627C46B855E07865D8 /* UIView+RGPanGestureHelp.m */; };
-		FAFBFA90F7BC3E7CF50F8A5CF0A8B264 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 54E63AAE9B51D7D9717F4CA459B5A8B2 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FC5CD40F0209E4BBD689CB2736EE75A9 /* UINavigationController+RGShouldPop.m in Sources */ = {isa = PBXBuildFile; fileRef = C55CF61A63B7829B88F0A191C3E8D828 /* UINavigationController+RGShouldPop.m */; };
+		806EA6A55D1458556C6FA159A2389DF7 /* UIColor+RGColorGet.h in Headers */ = {isa = PBXBuildFile; fileRef = 824356E9A8F46D1B4FE2F3383ADE59F9 /* UIColor+RGColorGet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84DD54D8B519F3BEE98946650BD2C1B2 /* UIViewController+RGPresent.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FE6335B6F01B769B79B7B6971922398 /* UIViewController+RGPresent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8520DFC5B785D44712CE82B6898A649C /* UIScrollView+RGInset.h in Headers */ = {isa = PBXBuildFile; fileRef = 9213A44C059FF31B68DFC78CC7989747 /* UIScrollView+RGInset.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8724197DF0FF3ACA721D19110B525617 /* RGCornerTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FD959EA502629613413726A403ECC76 /* RGCornerTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89AAB9DFD6A42BA955CE3E1828AFDD49 /* NSDate+RGFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = C68D4FB3990162CDECDF54E6B14A07EC /* NSDate+RGFormat.m */; };
+		9722323BF70D86B2C74030331C10EA35 /* RGUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 59E56C4E5F332EF0ED45CA231B0D5647 /* RGUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E9AEB13F273096620BB4DC795B3E974 /* RGCornerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2DD4B2A6D1994920D2793C85E3B857 /* RGCornerTableViewCell.m */; };
+		A3D88D0B825163A03A2C031C5A5F7451 /* UITabBar+RGBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F57D7323BDFC56EF28A5AFEB534EEC8 /* UITabBar+RGBadge.m */; };
+		A451EB8B532A04B3C9137C6F429D738F /* RGInputTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4715B3D2388B2723E1FB7AF05A54DD95 /* RGInputTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A70B1B1C3792114277C2BC69F3010289 /* UIView+RGPanGestureHelp.h in Headers */ = {isa = PBXBuildFile; fileRef = 947D87737AC0323F9BB028A8712F523E /* UIView+RGPanGestureHelp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7D0A5907FB5BC28FF2042117AB73FF7 /* UIBezierPath+RGDraw.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C91C6B878975BA935977464C2409697 /* UIBezierPath+RGDraw.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7E860494AAF1F691138754C69C9A8E7 /* UIView+RGLayoutHelp.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A6BE5C92B31FCE7ED42B3C3BAC56747 /* UIView+RGLayoutHelp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE0B489A597736C1077305D70DD1AAEE /* UIColor+RGColorGet.m in Sources */ = {isa = PBXBuildFile; fileRef = E6C0FFD2F25528C1F77DDDBF8AE063EF /* UIColor+RGColorGet.m */; };
+		B4332719FF3C5061982C59FD5A2ED739 /* RGBluuurView.m in Sources */ = {isa = PBXBuildFile; fileRef = ACFA19BB17DE70A3540F5B35C569DE6F /* RGBluuurView.m */; };
+		B7E18E24472FA0528BA87A097FB0E6B3 /* UIAlertController+Chainable.m in Sources */ = {isa = PBXBuildFile; fileRef = 48A9D4D0A6E1F1F6FA731CC78C513E68 /* UIAlertController+Chainable.m */; };
+		C28E9E3569241955A030BF691ADB384E /* RGNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6068091C6B4FE76798DFBDD16D67EB7C /* RGNavigationController.m */; };
+		C371F7A982600D472FC4D17BF430E629 /* Pods-XJCustomSlider-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B36F307641D62452B1DDEB4C7A751322 /* Pods-XJCustomSlider-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3D1FD173D2D226626CFED351A85A86C /* NSObject+RGObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AF15CE90BD84F7E4584F1C00A31B96D /* NSObject+RGObserver.m */; };
+		C82504D948F541B6CDB6AA233C035CA3 /* RGTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BC40E2AAD6A755A94AE5101FAF4BDBB /* RGTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D33E3A9E880956FAC63BD422897F6B8C /* UIImage+RGSize.h in Headers */ = {isa = PBXBuildFile; fileRef = 16402DD69839B00DA46A5F4C2DD18751 /* UIImage+RGSize.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D913791318D598ED080E48F3DE159308 /* UIImage+RGIconCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 31D0B1044AFE88BF76C753207F3204BA /* UIImage+RGIconCell.m */; };
+		D9DCDAAB8DE4D2D14D94292CA54A529C /* RGBluuur.h in Headers */ = {isa = PBXBuildFile; fileRef = 98A59A627CAB84BD405615358150D9BE /* RGBluuur.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E720065EE172E212E05997C021C88AED /* RGTimePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = D4A1456C9C961C138206FBF8B2D5D489 /* RGTimePicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E94883602C0E2120D3AFC1812333C877 /* RGUIKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 36D591E22469F99553E8CABE8A6F0656 /* RGUIKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE29FC9673F073387566BF4FA187112D /* RGLabelTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C1DCFAE6901B77D1B3667B3F22CCB929 /* RGLabelTableViewCell.m */; };
+		F121BBB65E853B237C0308FCF2B8D02D /* UIViewController+RGPresent.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDB6F1A293A7724D22F6DE30931A93E /* UIViewController+RGPresent.m */; };
+		F54DB3C714863CD8543A092375D08344 /* NSTimer+RGBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = 23A61223CF4E8C5A572E281454FBC133 /* NSTimer+RGBlock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F62CB8BD4A8DB3C381864B55E8E31C6C /* UIImage+RGRead.h in Headers */ = {isa = PBXBuildFile; fileRef = 47D1821C27ABB715A9C2557C342378EE /* UIImage+RGRead.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8DC7E4C2CDE7DE78A6FD5869C5CE73E /* UIView+RGPanGestureHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = DF42923EBA23C830763A1980EC7B7A2C /* UIView+RGPanGestureHelp.m */; };
+		FC5CD40F0209E4BBD689CB2736EE75A9 /* UINavigationController+RGShouldPop.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2BD7EA78DF5E95B3B7D2A169DC24F4 /* UINavigationController+RGShouldPop.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		01336441105C65A80C7FB746155C352E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
-			remoteInfo = Masonry;
-		};
-		C5F61DF5DC1DDE7C631EF54C6FA05302 /* PBXContainerItemProxy */ = {
+		810EA97D38886D21C8BD6F68733BE678 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -133,130 +97,97 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0468A383B7B240C31D0B6785008ABD2E /* UIImage+RGRead.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+RGRead.h"; path = "RGUIKit/RGUIKit/Category/UIImage/UIImage+RGRead.h"; sourceTree = "<group>"; };
-		074A7F49BC30F0387B7AF7157C62C532 /* UIImage+RGIconCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+RGIconCell.h"; path = "RGUIKit/RGUIKit/UITabelViewCell/UIImage+RGIconCell.h"; sourceTree = "<group>"; };
-		092C5EBE83FC9ADA94B574EC1FD876CF /* UIView+RGLayoutHelp.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+RGLayoutHelp.m"; path = "RGUIKit/RGUIKit/Category/UIView/UIView+RGLayoutHelp.m"; sourceTree = "<group>"; };
-		0A938800EF3C235F95BB13A1378C9887 /* UIBezierPath+RGDraw.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIBezierPath+RGDraw.h"; path = "RGUIKit/RGUIKit/Category/UIBezierPath/UIBezierPath+RGDraw.h"; sourceTree = "<group>"; };
+		00A06DE55C34442532008A556B719B49 /* UIColor+RGTint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+RGTint.m"; path = "RGUIKit/RGUIKit/Category/UIColor/UIColor+RGTint.m"; sourceTree = "<group>"; };
+		0A68107C943BE0BA961F9A5AD21CC062 /* NSNull+RGSafe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNull+RGSafe.h"; path = "RGUIKit/RGUIKit/Category/NSNull/NSNull+RGSafe.h"; sourceTree = "<group>"; };
 		0B06B108FECBB4466AE73EB1E88EFB12 /* Pods-XJCustomSlider-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XJCustomSlider-Info.plist"; sourceTree = "<group>"; };
-		0C7154D78D6C5AF312B8683DF19586F5 /* NSNull+RGSafe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNull+RGSafe.m"; path = "RGUIKit/RGUIKit/Category/NSNull/NSNull+RGSafe.m"; sourceTree = "<group>"; };
-		10D387CF8C27DEF59A7B801991387D99 /* NSTimer+RGBlock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSTimer+RGBlock.m"; path = "RGUIKit/RGUIKit/Category/NSTimer/NSTimer+RGBlock.m"; sourceTree = "<group>"; };
-		15C747AC65EAC37316B89D85285004C4 /* UITabBar+RGBadge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITabBar+RGBadge.m"; path = "RGUIKit/RGUIKit/Category/UITabBar/UITabBar+RGBadge.m"; sourceTree = "<group>"; };
-		166F526E105B7DEAA2E784B8AF64EF1A /* UIViewController+RGBarFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+RGBarFrame.h"; path = "RGUIKit/RGUIKit/Category/UIViewController/UIViewController+RGBarFrame.h"; sourceTree = "<group>"; };
+		134133F9CB862B7612789ED41C073994 /* RGNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RGNavigationController.h; path = RGUIKit/RGUIKit/UINavigationController/RGNavigationController.h; sourceTree = "<group>"; };
+		16402DD69839B00DA46A5F4C2DD18751 /* UIImage+RGSize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+RGSize.h"; path = "RGUIKit/RGUIKit/Category/UIImage/UIImage+RGSize.h"; sourceTree = "<group>"; };
 		172BFD477E1BC2F27EFF5DEADB0D880A /* Pods-XJCustomSlider.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XJCustomSlider.release.xcconfig"; sourceTree = "<group>"; };
-		180B6C3A35E213210E6B154ECD87D775 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
-		1EA52CE1E9DF54D82ADBAFD29D2B67F1 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		1FFED36A657123030ABB700256D73F15 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2708DD81563A7A6918731E74E9020528 /* RGUIKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RGUIKit-dummy.m"; sourceTree = "<group>"; };
-		29F39B58E589909548787A51A77F3970 /* RGBluuur.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RGBluuur.h; path = RGUIKit/RGUIKit/UIView/RGBluuur.h; sourceTree = "<group>"; };
-		2B0A870C35EA42675D9E77E70AFD2F13 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
-		2BD8157B62A7072A31EE61580ED6ABA7 /* RGUIKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RGUIKit-prefix.pch"; sourceTree = "<group>"; };
+		1C91C6B878975BA935977464C2409697 /* UIBezierPath+RGDraw.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIBezierPath+RGDraw.h"; path = "RGUIKit/RGUIKit/Category/UIBezierPath/UIBezierPath+RGDraw.h"; sourceTree = "<group>"; };
+		1CF64DE7129DB040A2BDFBDC379295C8 /* RGUIKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RGUIKit-prefix.pch"; sourceTree = "<group>"; };
+		1D2BD7EA78DF5E95B3B7D2A169DC24F4 /* UINavigationController+RGShouldPop.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+RGShouldPop.m"; path = "RGUIKit/RGUIKit/Category/UINavigationController/UINavigationController+RGShouldPop.m"; sourceTree = "<group>"; };
+		20A2FE96B0063A94159054F677BAA725 /* UIImage+RGImageEdit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+RGImageEdit.m"; path = "RGUIKit/RGUIKit/Category/UIImage/UIImage+RGImageEdit.m"; sourceTree = "<group>"; };
+		21B1C220A2B658C70B5F135FBAE87C72 /* RGEdgeTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RGEdgeTableViewCell.m; path = RGUIKit/RGUIKit/UITabelViewCell/RGEdgeTableViewCell.m; sourceTree = "<group>"; };
+		23A61223CF4E8C5A572E281454FBC133 /* NSTimer+RGBlock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSTimer+RGBlock.h"; path = "RGUIKit/RGUIKit/Category/NSTimer/NSTimer+RGBlock.h"; sourceTree = "<group>"; };
+		24E1CF0A82090DD4EFD5279CD7EAB663 /* RGUIKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RGUIKit-dummy.m"; sourceTree = "<group>"; };
+		2A6BE5C92B31FCE7ED42B3C3BAC56747 /* UIView+RGLayoutHelp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+RGLayoutHelp.h"; path = "RGUIKit/RGUIKit/Category/UIView/UIView+RGLayoutHelp.h"; sourceTree = "<group>"; };
+		2F57D7323BDFC56EF28A5AFEB534EEC8 /* UITabBar+RGBadge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITabBar+RGBadge.m"; path = "RGUIKit/RGUIKit/Category/UITabBar/UITabBar+RGBadge.m"; sourceTree = "<group>"; };
 		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		333F0E7D07893FE6C2C5FA1EA7F47362 /* NSDate+RGFormat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+RGFormat.h"; path = "RGUIKit/RGUIKit/Category/NSDate/NSDate+RGFormat.h"; sourceTree = "<group>"; };
-		36450332A08133359D3BEC1EA260E7D9 /* NSObject+RGObserver.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+RGObserver.m"; path = "RGUIKit/RGUIKit/Category/NSObject/NSObject+RGObserver.m"; sourceTree = "<group>"; };
-		3678EA3B92303575B17420B13E7F0CE5 /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
-		369593C81498E3E3F1D52925363FEDA6 /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
-		3A79775A31557DAB82D10140DFE83872 /* UIImage+RGRead.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+RGRead.m"; path = "RGUIKit/RGUIKit/Category/UIImage/UIImage+RGRead.m"; sourceTree = "<group>"; };
-		3ADA410CE8C462089DF33E6F0366BBF0 /* UIColor+RGTint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+RGTint.h"; path = "RGUIKit/RGUIKit/Category/UIColor/UIColor+RGTint.h"; sourceTree = "<group>"; };
-		3BE815275C372091497A0C0B983F9FF0 /* RGCornerTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RGCornerTableViewCell.h; path = RGUIKit/RGUIKit/UITabelViewCell/RGCornerTableViewCell.h; sourceTree = "<group>"; };
-		3C7086349275B4AB4FAA3864BD1E1C14 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
-		3EF0C293C9025D4EFC726004382EB60E /* UIViewController+RGBarFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+RGBarFrame.m"; path = "RGUIKit/RGUIKit/Category/UIViewController/UIViewController+RGBarFrame.m"; sourceTree = "<group>"; };
-		417E559B19E02B8073953E5C503D8925 /* RGUIKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RGUIKit.h; path = RGUIKit/RGUIKit/RGUIKit.h; sourceTree = "<group>"; };
+		31399B805F9FD412D26F3D9DE7A9A8E1 /* RGToastView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RGToastView.m; path = RGUIKit/RGUIKit/UIView/RGToastView.m; sourceTree = "<group>"; };
+		31D0B1044AFE88BF76C753207F3204BA /* UIImage+RGIconCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+RGIconCell.m"; path = "RGUIKit/RGUIKit/UITabelViewCell/UIImage+RGIconCell.m"; sourceTree = "<group>"; };
+		36D591E22469F99553E8CABE8A6F0656 /* RGUIKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RGUIKit-umbrella.h"; sourceTree = "<group>"; };
+		37FC7705F1EF7F46A3D19BA1C43B6E71 /* UIImage+RGRead.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+RGRead.m"; path = "RGUIKit/RGUIKit/Category/UIImage/UIImage+RGRead.m"; sourceTree = "<group>"; };
+		3872FFABCEFBFDFCCCE007D74A92D375 /* NSObject+RGRunTime.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+RGRunTime.m"; path = "RGUIKit/RGUIKit/Category/NSObject/NSObject+RGRunTime.m"; sourceTree = "<group>"; };
+		3AF15CE90BD84F7E4584F1C00A31B96D /* NSObject+RGObserver.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+RGObserver.m"; path = "RGUIKit/RGUIKit/Category/NSObject/NSObject+RGObserver.m"; sourceTree = "<group>"; };
+		3FE6335B6F01B769B79B7B6971922398 /* UIViewController+RGPresent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+RGPresent.h"; path = "RGUIKit/RGUIKit/Category/UIViewController/UIViewController+RGPresent.h"; sourceTree = "<group>"; };
 		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		43DDCB728753337EFF111FDCD16E9AFF /* Pods-XJCustomSlider-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XJCustomSlider-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4447853AC5BE5F57574CAC078AF265E6 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
 		44C9CD1CB929233A31766DDBE58E6F4D /* Pods-XJCustomSlider.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XJCustomSlider.modulemap"; sourceTree = "<group>"; };
-		473D27AC99220B609ABE9C7DDF433B90 /* RGUIKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RGUIKit-Info.plist"; sourceTree = "<group>"; };
-		4B07EEC3CFDDA6D5D157020F44EB8BAE /* RGToastView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RGToastView.m; path = RGUIKit/RGUIKit/UIView/RGToastView.m; sourceTree = "<group>"; };
-		4BAF0CBB1A0F356DA66BB9F1A9089299 /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
-		4F70E9897688EA08DE1F79BC686CC26C /* RGUIKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RGUIKit-umbrella.h"; sourceTree = "<group>"; };
-		5111EADD91795F3A6D9B8AD0B8D66D46 /* NSObject+RGObserver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+RGObserver.h"; path = "RGUIKit/RGUIKit/Category/NSObject/NSObject+RGObserver.h"; sourceTree = "<group>"; };
-		526577617D3DFC38C3062B028F6A39C3 /* RGInputTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RGInputTableViewCell.m; path = RGUIKit/RGUIKit/UITabelViewCell/RGInputTableViewCell.m; sourceTree = "<group>"; };
-		535E09D346D59D75FBD4E9845DFFF62B /* UIAlertController+Chainable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAlertController+Chainable.h"; path = "RGUIKit/RGUIKit/Category/UIAlert/UIAlertController+Chainable.h"; sourceTree = "<group>"; };
-		54E63AAE9B51D7D9717F4CA459B5A8B2 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
-		57E88C4775E8335ED0251340B92CBD76 /* RGEdgeTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RGEdgeTableViewCell.m; path = RGUIKit/RGUIKit/UITabelViewCell/RGEdgeTableViewCell.m; sourceTree = "<group>"; };
-		5B33C19B3EBF04624FBBAD7062F72316 /* RGBluuurView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RGBluuurView.h; path = RGUIKit/RGUIKit/UIView/RGBluuurView.h; sourceTree = "<group>"; };
-		5B85C78BF18EB95600A364E3976AFFFB /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
-		5D3B60A84F4EE493E896064167A11A68 /* UIViewController+RGSafeArea.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+RGSafeArea.m"; path = "RGUIKit/RGUIKit/Category/UIViewController/UIViewController+RGSafeArea.m"; sourceTree = "<group>"; };
-		5E2F92D29B68B34CD481E5EBC7062B73 /* UIAlertController+Chainable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAlertController+Chainable.m"; path = "RGUIKit/RGUIKit/Category/UIAlert/UIAlertController+Chainable.m"; sourceTree = "<group>"; };
-		5EEDA8E26E34936D126B18EAF68B5EA5 /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
-		6088CAF11001F3D4891EA11025AA4EAD /* RGIconCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RGIconCell.m; path = RGUIKit/RGUIKit/UITabelViewCell/RGIconCell.m; sourceTree = "<group>"; };
-		61F88A5FB59817340EE5DA68A8BEB93A /* RGInputTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RGInputTableViewCell.h; path = RGUIKit/RGUIKit/UITabelViewCell/RGInputTableViewCell.h; sourceTree = "<group>"; };
-		67D914139D16D0A84797C270E51C81DC /* UIView+RGParentVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+RGParentVC.h"; path = "RGUIKit/RGUIKit/Category/UIView/UIView+RGParentVC.h"; sourceTree = "<group>"; };
-		69F24E8CAD196CF0A56604FFA96D84BA /* UIScrollView+RGInset.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+RGInset.m"; path = "RGUIKit/RGUIKit/Category/UIScrollView/UIScrollView+RGInset.m"; sourceTree = "<group>"; };
-		6AA57B749557AB1EED958D2DA41243D6 /* UIImage+RGSize.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+RGSize.m"; path = "RGUIKit/RGUIKit/Category/UIImage/UIImage+RGSize.m"; sourceTree = "<group>"; };
-		6B710112F0E0409225CF91CC0367F04B /* UIImage+RGName.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+RGName.m"; path = "RGUIKit/RGUIKit/Category/UIImage/UIImage+RGName.m"; sourceTree = "<group>"; };
-		6DC9426078E5336CABBE1A75250B0E52 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
-		7111EB2FA9A1E8362DB54076EFF1AB06 /* RGUIKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RGUIKit.release.xcconfig; sourceTree = "<group>"; };
-		714FFF9CEE84F5017D87452CFFF749C3 /* RGLabelTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RGLabelTableViewCell.h; path = RGUIKit/RGUIKit/UITabelViewCell/RGLabelTableViewCell.h; sourceTree = "<group>"; };
-		72DA745045429F845F5EBD1330C0183B /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		4715B3D2388B2723E1FB7AF05A54DD95 /* RGInputTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RGInputTableViewCell.h; path = RGUIKit/RGUIKit/UITabelViewCell/RGInputTableViewCell.h; sourceTree = "<group>"; };
+		47D1821C27ABB715A9C2557C342378EE /* UIImage+RGRead.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+RGRead.h"; path = "RGUIKit/RGUIKit/Category/UIImage/UIImage+RGRead.h"; sourceTree = "<group>"; };
+		48A9D4D0A6E1F1F6FA731CC78C513E68 /* UIAlertController+Chainable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAlertController+Chainable.m"; path = "RGUIKit/RGUIKit/Category/UIAlert/UIAlertController+Chainable.m"; sourceTree = "<group>"; };
+		4B1ECEE6752B76836757E2587FBE60BF /* UIViewController+RGBarFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+RGBarFrame.m"; path = "RGUIKit/RGUIKit/Category/UIViewController/UIViewController+RGBarFrame.m"; sourceTree = "<group>"; };
+		4B705259819D492196B51A73651F8A96 /* NSTimer+RGBlock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSTimer+RGBlock.m"; path = "RGUIKit/RGUIKit/Category/NSTimer/NSTimer+RGBlock.m"; sourceTree = "<group>"; };
+		556720FA8C1B055923D4D24BF9B3932A /* RGTimePicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RGTimePicker.m; path = RGUIKit/RGUIKit/UIView/RGTimePicker.m; sourceTree = "<group>"; };
+		59E56C4E5F332EF0ED45CA231B0D5647 /* RGUIKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RGUIKit.h; path = RGUIKit/RGUIKit/RGUIKit.h; sourceTree = "<group>"; };
+		5C34BFE945FFF1DFA0792A89EDCFCC87 /* UIImage+RGTint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+RGTint.h"; path = "RGUIKit/RGUIKit/Category/UIImage/UIImage+RGTint.h"; sourceTree = "<group>"; };
+		6068091C6B4FE76798DFBDD16D67EB7C /* RGNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RGNavigationController.m; path = RGUIKit/RGUIKit/UINavigationController/RGNavigationController.m; sourceTree = "<group>"; };
+		6D457DA019CB70513E82A0B0AB42335F /* NSDate+RGFormat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+RGFormat.h"; path = "RGUIKit/RGUIKit/Category/NSDate/NSDate+RGFormat.h"; sourceTree = "<group>"; };
 		7571958A0CE95B8BC23BD914755621D2 /* RGUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RGUIKit.framework; path = RGUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		77CE19498411EC71E8C8A1D9E9B6DC0D /* Pods-XJCustomSlider-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XJCustomSlider-dummy.m"; sourceTree = "<group>"; };
-		781E4EB73FBDA11F9BC40A108B38315F /* UIImage+RGImageEdit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+RGImageEdit.h"; path = "RGUIKit/RGUIKit/Category/UIImage/UIImage+RGImageEdit.h"; sourceTree = "<group>"; };
-		7A07571F8B7D861AEF635B6D047B2E05 /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
-		7F14FCDFB60E57FDFCAC251D17EFE7DF /* RGTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RGTableViewCell.m; path = RGUIKit/RGUIKit/UITabelViewCell/RGTableViewCell.m; sourceTree = "<group>"; };
-		819F190EF584E2D8B391E8A28BDF9CDB /* UIImage+RGTint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+RGTint.m"; path = "RGUIKit/RGUIKit/Category/UIImage/UIImage+RGTint.m"; sourceTree = "<group>"; };
-		8E5087CDB1EB00BEC0A469AD73E302D2 /* UITabBar+RGBadge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITabBar+RGBadge.h"; path = "RGUIKit/RGUIKit/Category/UITabBar/UITabBar+RGBadge.h"; sourceTree = "<group>"; };
+		7815CF40867F3611513C719CDCEDBFB8 /* UIView+RGParentVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+RGParentVC.h"; path = "RGUIKit/RGUIKit/Category/UIView/UIView+RGParentVC.h"; sourceTree = "<group>"; };
+		7A51F23DBC5EC8BEC58386BB6BC6AF42 /* RGBluuurView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RGBluuurView.h; path = RGUIKit/RGUIKit/UIView/RGBluuurView.h; sourceTree = "<group>"; };
+		7DD3599F5E4FF345FFEEB6CFB632DBE3 /* UIImage+RGIconCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+RGIconCell.h"; path = "RGUIKit/RGUIKit/UITabelViewCell/UIImage+RGIconCell.h"; sourceTree = "<group>"; };
+		81B4C076A18A8ACD22EBCF011A8588D2 /* UINavigationController+RGShouldPop.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+RGShouldPop.h"; path = "RGUIKit/RGUIKit/Category/UINavigationController/UINavigationController+RGShouldPop.h"; sourceTree = "<group>"; };
+		81DE1365DEC0568DB0B0FF5AF896B7AE /* UITabBar+RGBadge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITabBar+RGBadge.h"; path = "RGUIKit/RGUIKit/Category/UITabBar/UITabBar+RGBadge.h"; sourceTree = "<group>"; };
+		824356E9A8F46D1B4FE2F3383ADE59F9 /* UIColor+RGColorGet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+RGColorGet.h"; path = "RGUIKit/RGUIKit/Category/UIColor/UIColor+RGColorGet.h"; sourceTree = "<group>"; };
+		837FFC7C165EDC67BB59391F73B93656 /* UIAlertController+Chainable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAlertController+Chainable.h"; path = "RGUIKit/RGUIKit/Category/UIAlert/UIAlertController+Chainable.h"; sourceTree = "<group>"; };
+		85DA3BEAFE316DC82B8591DF6970B95B /* UIBezierPath+RGDraw.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIBezierPath+RGDraw.m"; path = "RGUIKit/RGUIKit/Category/UIBezierPath/UIBezierPath+RGDraw.m"; sourceTree = "<group>"; };
+		872D3659268D5154DEFE7DE8C4ABF2A3 /* RGUIKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RGUIKit.release.xcconfig; sourceTree = "<group>"; };
+		8BC40E2AAD6A755A94AE5101FAF4BDBB /* RGTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RGTableViewCell.h; path = RGUIKit/RGUIKit/UITabelViewCell/RGTableViewCell.h; sourceTree = "<group>"; };
+		8D85F4578EEE47D9FA8A1304E04DDBD0 /* UIImage+RGName.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+RGName.m"; path = "RGUIKit/RGUIKit/Category/UIImage/UIImage+RGName.m"; sourceTree = "<group>"; };
 		8E9707AC5705C499BDE86BEBF2A41706 /* Pods_XJCustomSlider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XJCustomSlider.framework; path = "Pods-XJCustomSlider.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8FFA03CD231593AA195A82E9224CB654 /* Masonry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.release.xcconfig; sourceTree = "<group>"; };
-		93039B0A7194F7E0669D173143155361 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
-		94DC594B747170AC8807A972411B1666 /* RGCornerTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RGCornerTableViewCell.m; path = RGUIKit/RGUIKit/UITabelViewCell/RGCornerTableViewCell.m; sourceTree = "<group>"; };
-		9524B9AEE00CC1986F5CB2EFBD31D32A /* UIImage+RGImageEdit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+RGImageEdit.m"; path = "RGUIKit/RGUIKit/Category/UIImage/UIImage+RGImageEdit.m"; sourceTree = "<group>"; };
-		97B9DA03102807F663F00113114577B1 /* UIScrollView+RGInset.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+RGInset.h"; path = "RGUIKit/RGUIKit/Category/UIScrollView/UIScrollView+RGInset.h"; sourceTree = "<group>"; };
+		9213A44C059FF31B68DFC78CC7989747 /* UIScrollView+RGInset.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+RGInset.h"; path = "RGUIKit/RGUIKit/Category/UIScrollView/UIScrollView+RGInset.h"; sourceTree = "<group>"; };
+		947D87737AC0323F9BB028A8712F523E /* UIView+RGPanGestureHelp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+RGPanGestureHelp.h"; path = "RGUIKit/RGUIKit/Category/UIView/UIView+RGPanGestureHelp.h"; sourceTree = "<group>"; };
+		98A59A627CAB84BD405615358150D9BE /* RGBluuur.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RGBluuur.h; path = RGUIKit/RGUIKit/UIView/RGBluuur.h; sourceTree = "<group>"; };
+		993CEE9D404818AFBA63A41FA905DE4A /* NSObject+RGObserver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+RGObserver.h"; path = "RGUIKit/RGUIKit/Category/NSObject/NSObject+RGObserver.h"; sourceTree = "<group>"; };
 		993E7E44E7BF0D421AB3E2172EBBEA6B /* Pods-XJCustomSlider-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XJCustomSlider-frameworks.sh"; sourceTree = "<group>"; };
+		9C427AE474CC2ED6843824CA98016B58 /* RGUIKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RGUIKit.debug.xcconfig; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9FE8CF13D6E32DC545A79C4D2FB213C2 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
-		A05D127F5BFC2C2B66C6392E412368B8 /* UINavigationController+RGShouldPop.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+RGShouldPop.h"; path = "RGUIKit/RGUIKit/Category/UINavigationController/UINavigationController+RGShouldPop.h"; sourceTree = "<group>"; };
-		A0DC17F31227F6EB9EEB7585A411A247 /* UIViewController+RGPresent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+RGPresent.h"; path = "RGUIKit/RGUIKit/Category/UIViewController/UIViewController+RGPresent.h"; sourceTree = "<group>"; };
-		A27E8AB7993409CE219F56417088C1B4 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
-		A380BE204DF32EE9E73F36467E193F47 /* Masonry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.debug.xcconfig; sourceTree = "<group>"; };
-		A41B79F3D532BF29569247EC9D6013DB /* RGNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RGNavigationController.m; path = RGUIKit/RGUIKit/UINavigationController/RGNavigationController.m; sourceTree = "<group>"; };
-		AA23EE35085F46B8231E9507F624E50E /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
-		AB9B949044C1194AC5AC39F9CB9377A6 /* UIView+RGPanGestureHelp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+RGPanGestureHelp.h"; path = "RGUIKit/RGUIKit/Category/UIView/UIView+RGPanGestureHelp.h"; sourceTree = "<group>"; };
-		ADFA151143BEB1D9A03E931CAC4AEA5B /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
-		AFADDAE073F94DF1CDECDD8EDDD928EC /* RGUIKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RGUIKit.debug.xcconfig; sourceTree = "<group>"; };
-		B05C8438F9FBDD638E61A2B0B1FEF27D /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
-		B317D694C67C6E5B847677276F5BDDE6 /* UIViewController+RGPresent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+RGPresent.m"; path = "RGUIKit/RGUIKit/Category/UIViewController/UIViewController+RGPresent.m"; sourceTree = "<group>"; };
+		9FD959EA502629613413726A403ECC76 /* RGCornerTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RGCornerTableViewCell.h; path = RGUIKit/RGUIKit/UITabelViewCell/RGCornerTableViewCell.h; sourceTree = "<group>"; };
+		A17BE8555791B9362920ECFD033315E2 /* NSNull+RGSafe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNull+RGSafe.m"; path = "RGUIKit/RGUIKit/Category/NSNull/NSNull+RGSafe.m"; sourceTree = "<group>"; };
+		A54C871AEBE4E3F9BEE44A2571DE23EB /* UIView+RGLayoutHelp.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+RGLayoutHelp.m"; path = "RGUIKit/RGUIKit/Category/UIView/UIView+RGLayoutHelp.m"; sourceTree = "<group>"; };
+		ABDB6F1A293A7724D22F6DE30931A93E /* UIViewController+RGPresent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+RGPresent.m"; path = "RGUIKit/RGUIKit/Category/UIViewController/UIViewController+RGPresent.m"; sourceTree = "<group>"; };
+		ACFA19BB17DE70A3540F5B35C569DE6F /* RGBluuurView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RGBluuurView.m; path = RGUIKit/RGUIKit/UIView/RGBluuurView.m; sourceTree = "<group>"; };
+		ADAB5A5BDBA4ACDC909C1F24FA66E67F /* RGEdgeTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RGEdgeTableViewCell.h; path = RGUIKit/RGUIKit/UITabelViewCell/RGEdgeTableViewCell.h; sourceTree = "<group>"; };
 		B36F307641D62452B1DDEB4C7A751322 /* Pods-XJCustomSlider-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XJCustomSlider-umbrella.h"; sourceTree = "<group>"; };
-		BC3DF32494A57A9C67B2F4912F97E3CD /* UIColor+RGTint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+RGTint.m"; path = "RGUIKit/RGUIKit/Category/UIColor/UIColor+RGTint.m"; sourceTree = "<group>"; };
-		C09951583B7F6A862D042106B68ECE09 /* NSNull+RGSafe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNull+RGSafe.h"; path = "RGUIKit/RGUIKit/Category/NSNull/NSNull+RGSafe.h"; sourceTree = "<group>"; };
-		C105941F91C3824048975B51BA98CB3F /* RGIconCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RGIconCell.h; path = RGUIKit/RGUIKit/UITabelViewCell/RGIconCell.h; sourceTree = "<group>"; };
-		C38B89AA6DED33CB796BCEE01D8E494F /* NSObject+RGRunTime.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+RGRunTime.h"; path = "RGUIKit/RGUIKit/Category/NSObject/NSObject+RGRunTime.h"; sourceTree = "<group>"; };
-		C50A63FFD2759F802B4121A953F1D9AD /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
-		C55CF61A63B7829B88F0A191C3E8D828 /* UINavigationController+RGShouldPop.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+RGShouldPop.m"; path = "RGUIKit/RGUIKit/Category/UINavigationController/UINavigationController+RGShouldPop.m"; sourceTree = "<group>"; };
-		C5798FEA59CA2315943B670F7639D8A0 /* Masonry-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Masonry-Info.plist"; sourceTree = "<group>"; };
-		C629ED62A44731BBC0F2085532659223 /* UIImage+RGName.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+RGName.h"; path = "RGUIKit/RGUIKit/Category/UIImage/UIImage+RGName.h"; sourceTree = "<group>"; };
+		BBC5EBBAA7D98DE524DEE49713FA18A6 /* RGTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RGTableViewCell.m; path = RGUIKit/RGUIKit/UITabelViewCell/RGTableViewCell.m; sourceTree = "<group>"; };
+		C0467B84E67F2B8A57403054EF34D2F1 /* UIScrollView+RGInset.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+RGInset.m"; path = "RGUIKit/RGUIKit/Category/UIScrollView/UIScrollView+RGInset.m"; sourceTree = "<group>"; };
+		C1DCFAE6901B77D1B3667B3F22CCB929 /* RGLabelTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RGLabelTableViewCell.m; path = RGUIKit/RGUIKit/UITabelViewCell/RGLabelTableViewCell.m; sourceTree = "<group>"; };
+		C233628F64FE115F9D519A710D45005A /* RGInputTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RGInputTableViewCell.m; path = RGUIKit/RGUIKit/UITabelViewCell/RGInputTableViewCell.m; sourceTree = "<group>"; };
+		C60BC6655A440E26BBF6D3E77621FCC1 /* RGLabelTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RGLabelTableViewCell.h; path = RGUIKit/RGUIKit/UITabelViewCell/RGLabelTableViewCell.h; sourceTree = "<group>"; };
+		C63AAE845A04E423E779CEDE07342E93 /* RGUIKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RGUIKit-Info.plist"; sourceTree = "<group>"; };
 		C6650E088D7A587D1C69AF39CAC31C5B /* Pods-XJCustomSlider.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XJCustomSlider.debug.xcconfig"; sourceTree = "<group>"; };
-		C7CE8B12A83CFC935071698E864F756B /* UIColor+RGColorGet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+RGColorGet.h"; path = "RGUIKit/RGUIKit/Category/UIColor/UIColor+RGColorGet.h"; sourceTree = "<group>"; };
-		C830172275BA15499B7B5BF7DB924267 /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Masonry.modulemap; sourceTree = "<group>"; };
-		C8C9E52CFC2FC8AFAF8F3F7D32AA4A9A /* NSTimer+RGBlock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSTimer+RGBlock.h"; path = "RGUIKit/RGUIKit/Category/NSTimer/NSTimer+RGBlock.h"; sourceTree = "<group>"; };
-		C9B0BE0D9CD1B9122F1282884BD34099 /* RGLabelTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RGLabelTableViewCell.m; path = RGUIKit/RGUIKit/UITabelViewCell/RGLabelTableViewCell.m; sourceTree = "<group>"; };
-		CB9708EDE4E43D93E722AE0FB3D193D6 /* RGTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RGTableViewCell.h; path = RGUIKit/RGUIKit/UITabelViewCell/RGTableViewCell.h; sourceTree = "<group>"; };
-		CDD477AE607B416C58976AE3021B81CE /* NSObject+RGRunTime.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+RGRunTime.m"; path = "RGUIKit/RGUIKit/Category/NSObject/NSObject+RGRunTime.m"; sourceTree = "<group>"; };
-		CE632C9BCD45D64AC14045271AD1A08D /* UIImage+RGTint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+RGTint.h"; path = "RGUIKit/RGUIKit/Category/UIImage/UIImage+RGTint.h"; sourceTree = "<group>"; };
+		C68D4FB3990162CDECDF54E6B14A07EC /* NSDate+RGFormat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+RGFormat.m"; path = "RGUIKit/RGUIKit/Category/NSDate/NSDate+RGFormat.m"; sourceTree = "<group>"; };
+		CA6E6B899ECF4729042A7FE3AF1D0B49 /* UIView+RGParentVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+RGParentVC.m"; path = "RGUIKit/RGUIKit/Category/UIView/UIView+RGParentVC.m"; sourceTree = "<group>"; };
+		CB6AEFB5F8E28C1E2D839B7CCDB69B01 /* RGIconCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RGIconCell.m; path = RGUIKit/RGUIKit/UITabelViewCell/RGIconCell.m; sourceTree = "<group>"; };
 		CF58A60BB2A1C2BA89B7682928CA4491 /* Pods-XJCustomSlider-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XJCustomSlider-acknowledgements.plist"; sourceTree = "<group>"; };
-		CFC2FB6FD6E911616F720B11F588CAEE /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
-		CFDEAC81CD0654FAC947DAB8DD2A4836 /* UIImage+RGSize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+RGSize.h"; path = "RGUIKit/RGUIKit/Category/UIImage/UIImage+RGSize.h"; sourceTree = "<group>"; };
-		D1652E1B1AA3F26DCD42E4D851031A79 /* RGBluuurView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RGBluuurView.m; path = RGUIKit/RGUIKit/UIView/RGBluuurView.m; sourceTree = "<group>"; };
-		D44CCEC61AAB6BABB85F3CE9184F232D /* RGEdgeTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RGEdgeTableViewCell.h; path = RGUIKit/RGUIKit/UITabelViewCell/RGEdgeTableViewCell.h; sourceTree = "<group>"; };
-		D57AE9310D1F4D3C829F24A6309A594D /* RGTimePicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RGTimePicker.h; path = RGUIKit/RGUIKit/UIView/RGTimePicker.h; sourceTree = "<group>"; };
-		D5F43AA688EAFAD5F656A0E6CC7CB55C /* UIBezierPath+RGDraw.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIBezierPath+RGDraw.m"; path = "RGUIKit/RGUIKit/Category/UIBezierPath/UIBezierPath+RGDraw.m"; sourceTree = "<group>"; };
-		D97ECD4AF5376D955C51876592B28D5A /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
-		DA363C0534C892248B6C3636CA337876 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
-		DE74B9B48FC381F5BCD6C6EE9452ACD8 /* UIColor+RGColorGet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+RGColorGet.m"; path = "RGUIKit/RGUIKit/Category/UIColor/UIColor+RGColorGet.m"; sourceTree = "<group>"; };
-		DECAD9A28ED1CA8CB05181ECD20BC05E /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
-		DF72416504C22E24D8AB90EADD88A36C /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
-		DFB518E8DFAA082471139D5C3D3EE9A0 /* UIView+RGParentVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+RGParentVC.m"; path = "RGUIKit/RGUIKit/Category/UIView/UIView+RGParentVC.m"; sourceTree = "<group>"; };
-		E1C5EBCB45F72FF082C09F45CF744BC1 /* UIImage+RGIconCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+RGIconCell.m"; path = "RGUIKit/RGUIKit/UITabelViewCell/UIImage+RGIconCell.m"; sourceTree = "<group>"; };
-		E219C7BFEB6CBF08F3E690731C4F7D11 /* UIView+RGLayoutHelp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+RGLayoutHelp.h"; path = "RGUIKit/RGUIKit/Category/UIView/UIView+RGLayoutHelp.h"; sourceTree = "<group>"; };
-		E245BCB8648AD563FBF4C38D3EBC077A /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
-		E6C1F9BF67B5AE5C2DA15DF299023E09 /* RGToastView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RGToastView.h; path = RGUIKit/RGUIKit/UIView/RGToastView.h; sourceTree = "<group>"; };
-		EDFC5C367B5B5B27836862119CE4FE71 /* RGNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RGNavigationController.h; path = RGUIKit/RGUIKit/UINavigationController/RGNavigationController.h; sourceTree = "<group>"; };
-		EE969990924B8261F227744C6FDAA1AB /* RGUIKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RGUIKit.modulemap; sourceTree = "<group>"; };
-		F10B7E7C9B806343EC7555F9C3A7D6DA /* NSDate+RGFormat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+RGFormat.m"; path = "RGUIKit/RGUIKit/Category/NSDate/NSDate+RGFormat.m"; sourceTree = "<group>"; };
-		F4CE974ADA925FE0413100C88D22A2A2 /* RGTimePicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RGTimePicker.m; path = RGUIKit/RGUIKit/UIView/RGTimePicker.m; sourceTree = "<group>"; };
-		F5584917F48F1FB3577906B5268B08B0 /* UIViewController+RGSafeArea.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+RGSafeArea.h"; path = "RGUIKit/RGUIKit/Category/UIViewController/UIViewController+RGSafeArea.h"; sourceTree = "<group>"; };
-		F97444DCE6C06B627C46B855E07865D8 /* UIView+RGPanGestureHelp.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+RGPanGestureHelp.m"; path = "RGUIKit/RGUIKit/Category/UIView/UIView+RGPanGestureHelp.m"; sourceTree = "<group>"; };
-		F9A888BE6C5C6CE7ED8690B89CD303E8 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
+		CFD19C5C47E2A5321691155BDD7D0E22 /* UIImage+RGTint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+RGTint.m"; path = "RGUIKit/RGUIKit/Category/UIImage/UIImage+RGTint.m"; sourceTree = "<group>"; };
+		D0D39839173FD653490995ABBA1B9E9B /* RGToastView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RGToastView.h; path = RGUIKit/RGUIKit/UIView/RGToastView.h; sourceTree = "<group>"; };
+		D3CC39D71EC81C7077A60EEB3D67F4DB /* RGUIKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RGUIKit.modulemap; sourceTree = "<group>"; };
+		D4A1456C9C961C138206FBF8B2D5D489 /* RGTimePicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RGTimePicker.h; path = RGUIKit/RGUIKit/UIView/RGTimePicker.h; sourceTree = "<group>"; };
+		D605BA4C5EC1380C7A92985C94F52DB0 /* UIImage+RGName.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+RGName.h"; path = "RGUIKit/RGUIKit/Category/UIImage/UIImage+RGName.h"; sourceTree = "<group>"; };
+		DB33DD9ED8DBE2BB7F9F848F861F9720 /* UIImage+RGSize.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+RGSize.m"; path = "RGUIKit/RGUIKit/Category/UIImage/UIImage+RGSize.m"; sourceTree = "<group>"; };
+		DF42923EBA23C830763A1980EC7B7A2C /* UIView+RGPanGestureHelp.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+RGPanGestureHelp.m"; path = "RGUIKit/RGUIKit/Category/UIView/UIView+RGPanGestureHelp.m"; sourceTree = "<group>"; };
+		E0DC0853D864EDDF714AB740D35AD244 /* UIImage+RGImageEdit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+RGImageEdit.h"; path = "RGUIKit/RGUIKit/Category/UIImage/UIImage+RGImageEdit.h"; sourceTree = "<group>"; };
+		E18A8FF9EC27958B37192F48B8D66C07 /* NSObject+RGRunTime.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+RGRunTime.h"; path = "RGUIKit/RGUIKit/Category/NSObject/NSObject+RGRunTime.h"; sourceTree = "<group>"; };
+		E3172FB7193F263A2973A1096EC92077 /* UIViewController+RGSafeArea.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+RGSafeArea.h"; path = "RGUIKit/RGUIKit/Category/UIViewController/UIViewController+RGSafeArea.h"; sourceTree = "<group>"; };
+		E6C0FFD2F25528C1F77DDDBF8AE063EF /* UIColor+RGColorGet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+RGColorGet.m"; path = "RGUIKit/RGUIKit/Category/UIColor/UIColor+RGColorGet.m"; sourceTree = "<group>"; };
+		EC861C96E4B514D84A24ADA0FEC8117F /* UIColor+RGTint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+RGTint.h"; path = "RGUIKit/RGUIKit/Category/UIColor/UIColor+RGTint.h"; sourceTree = "<group>"; };
+		ED2DD4B2A6D1994920D2793C85E3B857 /* RGCornerTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RGCornerTableViewCell.m; path = RGUIKit/RGUIKit/UITabelViewCell/RGCornerTableViewCell.m; sourceTree = "<group>"; };
+		EED776630F9672E35C1710F8B530E811 /* UIViewController+RGSafeArea.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+RGSafeArea.m"; path = "RGUIKit/RGUIKit/Category/UIViewController/UIViewController+RGSafeArea.m"; sourceTree = "<group>"; };
+		EF8B059307C0F2DD6E0DBC890199C8FC /* RGIconCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RGIconCell.h; path = RGUIKit/RGUIKit/UITabelViewCell/RGIconCell.h; sourceTree = "<group>"; };
+		FB83C2D70932DA91C689755E4BD9C167 /* UIViewController+RGBarFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+RGBarFrame.h"; path = "RGUIKit/RGUIKit/Category/UIViewController/UIViewController+RGBarFrame.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -269,20 +200,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		50FD3D2677956D535311D08E9DF663EE /* Frameworks */ = {
+		E8C0A6C11FA3D821B9386F269140C5BA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5614C9274178E4B803F57CFA1775EAE9 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5E047F76604659BF1B2099B2C412AC93 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E51F496BDC6ACADE04FDA059C6CB2342 /* Foundation.framework in Frameworks */,
-				CE93C54413259B4AC3683B6EB874D466 /* UIKit.framework in Frameworks */,
+				08D0ED35832828D6995B06C88332B52C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,45 +219,10 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		1FF2966A61F9D9F909DD259D245BBCDA /* Masonry */ = {
+		27C8CD36D05C5242F0850E8EF7807512 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				180B6C3A35E213210E6B154ECD87D775 /* MASCompositeConstraint.h */,
-				C50A63FFD2759F802B4121A953F1D9AD /* MASCompositeConstraint.m */,
-				DF72416504C22E24D8AB90EADD88A36C /* MASConstraint.h */,
-				F9A888BE6C5C6CE7ED8690B89CD303E8 /* MASConstraint.m */,
-				B05C8438F9FBDD638E61A2B0B1FEF27D /* MASConstraint+Private.h */,
-				54E63AAE9B51D7D9717F4CA459B5A8B2 /* MASConstraintMaker.h */,
-				ADFA151143BEB1D9A03E931CAC4AEA5B /* MASConstraintMaker.m */,
-				2B0A870C35EA42675D9E77E70AFD2F13 /* MASLayoutConstraint.h */,
-				6DC9426078E5336CABBE1A75250B0E52 /* MASLayoutConstraint.m */,
-				5B85C78BF18EB95600A364E3976AFFFB /* Masonry.h */,
-				93039B0A7194F7E0669D173143155361 /* MASUtilities.h */,
-				4447853AC5BE5F57574CAC078AF265E6 /* MASViewAttribute.h */,
-				D97ECD4AF5376D955C51876592B28D5A /* MASViewAttribute.m */,
-				3C7086349275B4AB4FAA3864BD1E1C14 /* MASViewConstraint.h */,
-				3678EA3B92303575B17420B13E7F0CE5 /* MASViewConstraint.m */,
-				A27E8AB7993409CE219F56417088C1B4 /* NSArray+MASAdditions.h */,
-				9FE8CF13D6E32DC545A79C4D2FB213C2 /* NSArray+MASAdditions.m */,
-				1EA52CE1E9DF54D82ADBAFD29D2B67F1 /* NSArray+MASShorthandAdditions.h */,
-				AA23EE35085F46B8231E9507F624E50E /* NSLayoutConstraint+MASDebugAdditions.h */,
-				DA363C0534C892248B6C3636CA337876 /* NSLayoutConstraint+MASDebugAdditions.m */,
-				DECAD9A28ED1CA8CB05181ECD20BC05E /* View+MASAdditions.h */,
-				5EEDA8E26E34936D126B18EAF68B5EA5 /* View+MASAdditions.m */,
-				72DA745045429F845F5EBD1330C0183B /* View+MASShorthandAdditions.h */,
-				CFC2FB6FD6E911616F720B11F588CAEE /* ViewController+MASAdditions.h */,
-				E245BCB8648AD563FBF4C38D3EBC077A /* ViewController+MASAdditions.m */,
-				F80F7018B7FE9F6CC8F1364A378765FE /* Support Files */,
-			);
-			name = Masonry;
-			path = Masonry;
-			sourceTree = "<group>";
-		};
-		39A6F625F9D758AB27DE4B1B149EF9BB /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				1FF2966A61F9D9F909DD259D245BBCDA /* Masonry */,
-				C4B5B2D08267182780C1E9980CCB4195 /* RGUIKit */,
+				F7A964570C8936C00F715CCDAEFC28B3 /* RGUIKit */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -365,108 +252,19 @@
 			path = "Target Support Files/Pods-XJCustomSlider";
 			sourceTree = "<group>";
 		};
-		C37060FF451A2061BF111031A8C01EA8 /* Support Files */ = {
+		AF0FBFF9ED8735D9AE165D530606F6F1 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				EE969990924B8261F227744C6FDAA1AB /* RGUIKit.modulemap */,
-				2708DD81563A7A6918731E74E9020528 /* RGUIKit-dummy.m */,
-				473D27AC99220B609ABE9C7DDF433B90 /* RGUIKit-Info.plist */,
-				2BD8157B62A7072A31EE61580ED6ABA7 /* RGUIKit-prefix.pch */,
-				4F70E9897688EA08DE1F79BC686CC26C /* RGUIKit-umbrella.h */,
-				AFADDAE073F94DF1CDECDD8EDDD928EC /* RGUIKit.debug.xcconfig */,
-				7111EB2FA9A1E8362DB54076EFF1AB06 /* RGUIKit.release.xcconfig */,
+				D3CC39D71EC81C7077A60EEB3D67F4DB /* RGUIKit.modulemap */,
+				24E1CF0A82090DD4EFD5279CD7EAB663 /* RGUIKit-dummy.m */,
+				C63AAE845A04E423E779CEDE07342E93 /* RGUIKit-Info.plist */,
+				1CF64DE7129DB040A2BDFBDC379295C8 /* RGUIKit-prefix.pch */,
+				36D591E22469F99553E8CABE8A6F0656 /* RGUIKit-umbrella.h */,
+				9C427AE474CC2ED6843824CA98016B58 /* RGUIKit.debug.xcconfig */,
+				872D3659268D5154DEFE7DE8C4ABF2A3 /* RGUIKit.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/RGUIKit";
-			sourceTree = "<group>";
-		};
-		C4B5B2D08267182780C1E9980CCB4195 /* RGUIKit */ = {
-			isa = PBXGroup;
-			children = (
-				333F0E7D07893FE6C2C5FA1EA7F47362 /* NSDate+RGFormat.h */,
-				F10B7E7C9B806343EC7555F9C3A7D6DA /* NSDate+RGFormat.m */,
-				C09951583B7F6A862D042106B68ECE09 /* NSNull+RGSafe.h */,
-				0C7154D78D6C5AF312B8683DF19586F5 /* NSNull+RGSafe.m */,
-				5111EADD91795F3A6D9B8AD0B8D66D46 /* NSObject+RGObserver.h */,
-				36450332A08133359D3BEC1EA260E7D9 /* NSObject+RGObserver.m */,
-				C38B89AA6DED33CB796BCEE01D8E494F /* NSObject+RGRunTime.h */,
-				CDD477AE607B416C58976AE3021B81CE /* NSObject+RGRunTime.m */,
-				C8C9E52CFC2FC8AFAF8F3F7D32AA4A9A /* NSTimer+RGBlock.h */,
-				10D387CF8C27DEF59A7B801991387D99 /* NSTimer+RGBlock.m */,
-				29F39B58E589909548787A51A77F3970 /* RGBluuur.h */,
-				5B33C19B3EBF04624FBBAD7062F72316 /* RGBluuurView.h */,
-				D1652E1B1AA3F26DCD42E4D851031A79 /* RGBluuurView.m */,
-				3BE815275C372091497A0C0B983F9FF0 /* RGCornerTableViewCell.h */,
-				94DC594B747170AC8807A972411B1666 /* RGCornerTableViewCell.m */,
-				D44CCEC61AAB6BABB85F3CE9184F232D /* RGEdgeTableViewCell.h */,
-				57E88C4775E8335ED0251340B92CBD76 /* RGEdgeTableViewCell.m */,
-				C105941F91C3824048975B51BA98CB3F /* RGIconCell.h */,
-				6088CAF11001F3D4891EA11025AA4EAD /* RGIconCell.m */,
-				61F88A5FB59817340EE5DA68A8BEB93A /* RGInputTableViewCell.h */,
-				526577617D3DFC38C3062B028F6A39C3 /* RGInputTableViewCell.m */,
-				714FFF9CEE84F5017D87452CFFF749C3 /* RGLabelTableViewCell.h */,
-				C9B0BE0D9CD1B9122F1282884BD34099 /* RGLabelTableViewCell.m */,
-				EDFC5C367B5B5B27836862119CE4FE71 /* RGNavigationController.h */,
-				A41B79F3D532BF29569247EC9D6013DB /* RGNavigationController.m */,
-				CB9708EDE4E43D93E722AE0FB3D193D6 /* RGTableViewCell.h */,
-				7F14FCDFB60E57FDFCAC251D17EFE7DF /* RGTableViewCell.m */,
-				D57AE9310D1F4D3C829F24A6309A594D /* RGTimePicker.h */,
-				F4CE974ADA925FE0413100C88D22A2A2 /* RGTimePicker.m */,
-				E6C1F9BF67B5AE5C2DA15DF299023E09 /* RGToastView.h */,
-				4B07EEC3CFDDA6D5D157020F44EB8BAE /* RGToastView.m */,
-				417E559B19E02B8073953E5C503D8925 /* RGUIKit.h */,
-				535E09D346D59D75FBD4E9845DFFF62B /* UIAlertController+Chainable.h */,
-				5E2F92D29B68B34CD481E5EBC7062B73 /* UIAlertController+Chainable.m */,
-				0A938800EF3C235F95BB13A1378C9887 /* UIBezierPath+RGDraw.h */,
-				D5F43AA688EAFAD5F656A0E6CC7CB55C /* UIBezierPath+RGDraw.m */,
-				C7CE8B12A83CFC935071698E864F756B /* UIColor+RGColorGet.h */,
-				DE74B9B48FC381F5BCD6C6EE9452ACD8 /* UIColor+RGColorGet.m */,
-				3ADA410CE8C462089DF33E6F0366BBF0 /* UIColor+RGTint.h */,
-				BC3DF32494A57A9C67B2F4912F97E3CD /* UIColor+RGTint.m */,
-				074A7F49BC30F0387B7AF7157C62C532 /* UIImage+RGIconCell.h */,
-				E1C5EBCB45F72FF082C09F45CF744BC1 /* UIImage+RGIconCell.m */,
-				781E4EB73FBDA11F9BC40A108B38315F /* UIImage+RGImageEdit.h */,
-				9524B9AEE00CC1986F5CB2EFBD31D32A /* UIImage+RGImageEdit.m */,
-				C629ED62A44731BBC0F2085532659223 /* UIImage+RGName.h */,
-				6B710112F0E0409225CF91CC0367F04B /* UIImage+RGName.m */,
-				0468A383B7B240C31D0B6785008ABD2E /* UIImage+RGRead.h */,
-				3A79775A31557DAB82D10140DFE83872 /* UIImage+RGRead.m */,
-				CFDEAC81CD0654FAC947DAB8DD2A4836 /* UIImage+RGSize.h */,
-				6AA57B749557AB1EED958D2DA41243D6 /* UIImage+RGSize.m */,
-				CE632C9BCD45D64AC14045271AD1A08D /* UIImage+RGTint.h */,
-				819F190EF584E2D8B391E8A28BDF9CDB /* UIImage+RGTint.m */,
-				A05D127F5BFC2C2B66C6392E412368B8 /* UINavigationController+RGShouldPop.h */,
-				C55CF61A63B7829B88F0A191C3E8D828 /* UINavigationController+RGShouldPop.m */,
-				97B9DA03102807F663F00113114577B1 /* UIScrollView+RGInset.h */,
-				69F24E8CAD196CF0A56604FFA96D84BA /* UIScrollView+RGInset.m */,
-				8E5087CDB1EB00BEC0A469AD73E302D2 /* UITabBar+RGBadge.h */,
-				15C747AC65EAC37316B89D85285004C4 /* UITabBar+RGBadge.m */,
-				E219C7BFEB6CBF08F3E690731C4F7D11 /* UIView+RGLayoutHelp.h */,
-				092C5EBE83FC9ADA94B574EC1FD876CF /* UIView+RGLayoutHelp.m */,
-				AB9B949044C1194AC5AC39F9CB9377A6 /* UIView+RGPanGestureHelp.h */,
-				F97444DCE6C06B627C46B855E07865D8 /* UIView+RGPanGestureHelp.m */,
-				67D914139D16D0A84797C270E51C81DC /* UIView+RGParentVC.h */,
-				DFB518E8DFAA082471139D5C3D3EE9A0 /* UIView+RGParentVC.m */,
-				166F526E105B7DEAA2E784B8AF64EF1A /* UIViewController+RGBarFrame.h */,
-				3EF0C293C9025D4EFC726004382EB60E /* UIViewController+RGBarFrame.m */,
-				A0DC17F31227F6EB9EEB7585A411A247 /* UIViewController+RGPresent.h */,
-				B317D694C67C6E5B847677276F5BDDE6 /* UIViewController+RGPresent.m */,
-				F5584917F48F1FB3577906B5268B08B0 /* UIViewController+RGSafeArea.h */,
-				5D3B60A84F4EE493E896064167A11A68 /* UIViewController+RGSafeArea.m */,
-				C37060FF451A2061BF111031A8C01EA8 /* Support Files */,
-			);
-			name = RGUIKit;
-			path = RGUIKit;
-			sourceTree = "<group>";
-		};
-		CB3BC1CC68EF93ABB75034E468D66D75 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				1FFED36A657123030ABB700256D73F15 /* Masonry.framework */,
-				8E9707AC5705C499BDE86BEBF2A41706 /* Pods_XJCustomSlider.framework */,
-				7571958A0CE95B8BC23BD914755621D2 /* RGUIKit.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -474,8 +272,8 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
-				39A6F625F9D758AB27DE4B1B149EF9BB /* Pods */,
-				CB3BC1CC68EF93ABB75034E468D66D75 /* Products */,
+				27C8CD36D05C5242F0850E8EF7807512 /* Pods */,
+				F9A2AE538EB6E8D5B3B4398374729CD0 /* Products */,
 				60370C9132FE7EA29613D5F8D38DA29B /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -489,19 +287,92 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		F80F7018B7FE9F6CC8F1364A378765FE /* Support Files */ = {
+		F7A964570C8936C00F715CCDAEFC28B3 /* RGUIKit */ = {
 			isa = PBXGroup;
 			children = (
-				C830172275BA15499B7B5BF7DB924267 /* Masonry.modulemap */,
-				4BAF0CBB1A0F356DA66BB9F1A9089299 /* Masonry-dummy.m */,
-				C5798FEA59CA2315943B670F7639D8A0 /* Masonry-Info.plist */,
-				369593C81498E3E3F1D52925363FEDA6 /* Masonry-prefix.pch */,
-				7A07571F8B7D861AEF635B6D047B2E05 /* Masonry-umbrella.h */,
-				A380BE204DF32EE9E73F36467E193F47 /* Masonry.debug.xcconfig */,
-				8FFA03CD231593AA195A82E9224CB654 /* Masonry.release.xcconfig */,
+				6D457DA019CB70513E82A0B0AB42335F /* NSDate+RGFormat.h */,
+				C68D4FB3990162CDECDF54E6B14A07EC /* NSDate+RGFormat.m */,
+				0A68107C943BE0BA961F9A5AD21CC062 /* NSNull+RGSafe.h */,
+				A17BE8555791B9362920ECFD033315E2 /* NSNull+RGSafe.m */,
+				993CEE9D404818AFBA63A41FA905DE4A /* NSObject+RGObserver.h */,
+				3AF15CE90BD84F7E4584F1C00A31B96D /* NSObject+RGObserver.m */,
+				E18A8FF9EC27958B37192F48B8D66C07 /* NSObject+RGRunTime.h */,
+				3872FFABCEFBFDFCCCE007D74A92D375 /* NSObject+RGRunTime.m */,
+				23A61223CF4E8C5A572E281454FBC133 /* NSTimer+RGBlock.h */,
+				4B705259819D492196B51A73651F8A96 /* NSTimer+RGBlock.m */,
+				98A59A627CAB84BD405615358150D9BE /* RGBluuur.h */,
+				7A51F23DBC5EC8BEC58386BB6BC6AF42 /* RGBluuurView.h */,
+				ACFA19BB17DE70A3540F5B35C569DE6F /* RGBluuurView.m */,
+				9FD959EA502629613413726A403ECC76 /* RGCornerTableViewCell.h */,
+				ED2DD4B2A6D1994920D2793C85E3B857 /* RGCornerTableViewCell.m */,
+				ADAB5A5BDBA4ACDC909C1F24FA66E67F /* RGEdgeTableViewCell.h */,
+				21B1C220A2B658C70B5F135FBAE87C72 /* RGEdgeTableViewCell.m */,
+				EF8B059307C0F2DD6E0DBC890199C8FC /* RGIconCell.h */,
+				CB6AEFB5F8E28C1E2D839B7CCDB69B01 /* RGIconCell.m */,
+				4715B3D2388B2723E1FB7AF05A54DD95 /* RGInputTableViewCell.h */,
+				C233628F64FE115F9D519A710D45005A /* RGInputTableViewCell.m */,
+				C60BC6655A440E26BBF6D3E77621FCC1 /* RGLabelTableViewCell.h */,
+				C1DCFAE6901B77D1B3667B3F22CCB929 /* RGLabelTableViewCell.m */,
+				134133F9CB862B7612789ED41C073994 /* RGNavigationController.h */,
+				6068091C6B4FE76798DFBDD16D67EB7C /* RGNavigationController.m */,
+				8BC40E2AAD6A755A94AE5101FAF4BDBB /* RGTableViewCell.h */,
+				BBC5EBBAA7D98DE524DEE49713FA18A6 /* RGTableViewCell.m */,
+				D4A1456C9C961C138206FBF8B2D5D489 /* RGTimePicker.h */,
+				556720FA8C1B055923D4D24BF9B3932A /* RGTimePicker.m */,
+				D0D39839173FD653490995ABBA1B9E9B /* RGToastView.h */,
+				31399B805F9FD412D26F3D9DE7A9A8E1 /* RGToastView.m */,
+				59E56C4E5F332EF0ED45CA231B0D5647 /* RGUIKit.h */,
+				837FFC7C165EDC67BB59391F73B93656 /* UIAlertController+Chainable.h */,
+				48A9D4D0A6E1F1F6FA731CC78C513E68 /* UIAlertController+Chainable.m */,
+				1C91C6B878975BA935977464C2409697 /* UIBezierPath+RGDraw.h */,
+				85DA3BEAFE316DC82B8591DF6970B95B /* UIBezierPath+RGDraw.m */,
+				824356E9A8F46D1B4FE2F3383ADE59F9 /* UIColor+RGColorGet.h */,
+				E6C0FFD2F25528C1F77DDDBF8AE063EF /* UIColor+RGColorGet.m */,
+				EC861C96E4B514D84A24ADA0FEC8117F /* UIColor+RGTint.h */,
+				00A06DE55C34442532008A556B719B49 /* UIColor+RGTint.m */,
+				7DD3599F5E4FF345FFEEB6CFB632DBE3 /* UIImage+RGIconCell.h */,
+				31D0B1044AFE88BF76C753207F3204BA /* UIImage+RGIconCell.m */,
+				E0DC0853D864EDDF714AB740D35AD244 /* UIImage+RGImageEdit.h */,
+				20A2FE96B0063A94159054F677BAA725 /* UIImage+RGImageEdit.m */,
+				D605BA4C5EC1380C7A92985C94F52DB0 /* UIImage+RGName.h */,
+				8D85F4578EEE47D9FA8A1304E04DDBD0 /* UIImage+RGName.m */,
+				47D1821C27ABB715A9C2557C342378EE /* UIImage+RGRead.h */,
+				37FC7705F1EF7F46A3D19BA1C43B6E71 /* UIImage+RGRead.m */,
+				16402DD69839B00DA46A5F4C2DD18751 /* UIImage+RGSize.h */,
+				DB33DD9ED8DBE2BB7F9F848F861F9720 /* UIImage+RGSize.m */,
+				5C34BFE945FFF1DFA0792A89EDCFCC87 /* UIImage+RGTint.h */,
+				CFD19C5C47E2A5321691155BDD7D0E22 /* UIImage+RGTint.m */,
+				81B4C076A18A8ACD22EBCF011A8588D2 /* UINavigationController+RGShouldPop.h */,
+				1D2BD7EA78DF5E95B3B7D2A169DC24F4 /* UINavigationController+RGShouldPop.m */,
+				9213A44C059FF31B68DFC78CC7989747 /* UIScrollView+RGInset.h */,
+				C0467B84E67F2B8A57403054EF34D2F1 /* UIScrollView+RGInset.m */,
+				81DE1365DEC0568DB0B0FF5AF896B7AE /* UITabBar+RGBadge.h */,
+				2F57D7323BDFC56EF28A5AFEB534EEC8 /* UITabBar+RGBadge.m */,
+				2A6BE5C92B31FCE7ED42B3C3BAC56747 /* UIView+RGLayoutHelp.h */,
+				A54C871AEBE4E3F9BEE44A2571DE23EB /* UIView+RGLayoutHelp.m */,
+				947D87737AC0323F9BB028A8712F523E /* UIView+RGPanGestureHelp.h */,
+				DF42923EBA23C830763A1980EC7B7A2C /* UIView+RGPanGestureHelp.m */,
+				7815CF40867F3611513C719CDCEDBFB8 /* UIView+RGParentVC.h */,
+				CA6E6B899ECF4729042A7FE3AF1D0B49 /* UIView+RGParentVC.m */,
+				FB83C2D70932DA91C689755E4BD9C167 /* UIViewController+RGBarFrame.h */,
+				4B1ECEE6752B76836757E2587FBE60BF /* UIViewController+RGBarFrame.m */,
+				3FE6335B6F01B769B79B7B6971922398 /* UIViewController+RGPresent.h */,
+				ABDB6F1A293A7724D22F6DE30931A93E /* UIViewController+RGPresent.m */,
+				E3172FB7193F263A2973A1096EC92077 /* UIViewController+RGSafeArea.h */,
+				EED776630F9672E35C1710F8B530E811 /* UIViewController+RGSafeArea.m */,
+				AF0FBFF9ED8735D9AE165D530606F6F1 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/Masonry";
+			name = RGUIKit;
+			path = RGUIKit;
+			sourceTree = "<group>";
+		};
+		F9A2AE538EB6E8D5B3B4398374729CD0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E9707AC5705C499BDE86BEBF2A41706 /* Pods_XJCustomSlider.framework */,
+				7571958A0CE95B8BC23BD914755621D2 /* RGUIKit.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -551,34 +422,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7B04ACBA4522760CA66A5D4AFA498F81 /* Headers */ = {
+		8367FAD12AA9C99FC6CDCDBE8DE19952 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D65CE579E516BDD5FB36CAA21D693F6 /* MASCompositeConstraint.h in Headers */,
-				9D546E1168C04B0B2EAE005D9275D18B /* MASConstraint+Private.h in Headers */,
-				941955A19C40899D275604E6E9C21A6D /* MASConstraint.h in Headers */,
-				FAFBFA90F7BC3E7CF50F8A5CF0A8B264 /* MASConstraintMaker.h in Headers */,
-				8D4D1F6E4709EBB13974E95DC1059DDC /* MASLayoutConstraint.h in Headers */,
-				6A6AD3A5BBDBFD0B4AF936BD518EC0B1 /* Masonry-umbrella.h in Headers */,
-				346080C0D1CA23399ADD739D722D7CEF /* Masonry.h in Headers */,
-				280D36330BAC5715615FF4A8B42D60D6 /* MASUtilities.h in Headers */,
-				3DA5F1D8E51CDD102A871C2F37770C7B /* MASViewAttribute.h in Headers */,
-				EAE8B0895956885A752B173683A0D889 /* MASViewConstraint.h in Headers */,
-				05EA1447EEA0EB669F8DEE73964A7C60 /* NSArray+MASAdditions.h in Headers */,
-				05A040F35BF1C88F869404E1A940B493 /* NSArray+MASShorthandAdditions.h in Headers */,
-				0AF1AD35706D90B1A91F291B899EF8C0 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
-				4B0981F9AC628CF5100C50FF4A163A4A /* View+MASAdditions.h in Headers */,
-				E7CA20228B3583F41927813EE904CAD3 /* View+MASShorthandAdditions.h in Headers */,
-				8B92011C9373001132C8148BFC8F50B3 /* ViewController+MASAdditions.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A49ACCF55F18C1F619A83E79F21CA7D8 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A6912BEB6E399BAAED745DD06E233A89 /* Pods-XJCustomSlider-umbrella.h in Headers */,
+				C371F7A982600D472FC4D17BF430E629 /* Pods-XJCustomSlider-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -587,40 +435,21 @@
 /* Begin PBXNativeTarget section */
 		2500CBD7DB215ED2F3915923708F8AE4 /* Pods-XJCustomSlider */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A49AE221659DC8965135BACA03DD4EEB /* Build configuration list for PBXNativeTarget "Pods-XJCustomSlider" */;
+			buildConfigurationList = F7A156339C903183F7E91B7E11C45EAB /* Build configuration list for PBXNativeTarget "Pods-XJCustomSlider" */;
 			buildPhases = (
-				A49ACCF55F18C1F619A83E79F21CA7D8 /* Headers */,
-				FF12CA9DA7F738FD1F9100D15E129F67 /* Sources */,
-				50FD3D2677956D535311D08E9DF663EE /* Frameworks */,
-				F6B6F0D4D17BCB26DF572E8D8D7FF5EF /* Resources */,
+				8367FAD12AA9C99FC6CDCDBE8DE19952 /* Headers */,
+				FF914C57BA8EF55B35DC8B353EA24732 /* Sources */,
+				E8C0A6C11FA3D821B9386F269140C5BA /* Frameworks */,
+				1DF286AFE76A5E0CBE87AAB2F9AF5C27 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2E6BAF882FC2F44245D1B5468E0F6E41 /* PBXTargetDependency */,
-				3C26045E3FF08ABE302BC1C18E1132D4 /* PBXTargetDependency */,
+				4DA6F31C1D92288B00E5CA746C6DBC6E /* PBXTargetDependency */,
 			);
 			name = "Pods-XJCustomSlider";
 			productName = "Pods-XJCustomSlider";
 			productReference = 8E9707AC5705C499BDE86BEBF2A41706 /* Pods_XJCustomSlider.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		55AF53E6C77A10ED4985E04D74A8878E /* Masonry */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 87FD40BD683E3BD044AA4D1B5CA58652 /* Build configuration list for PBXNativeTarget "Masonry" */;
-			buildPhases = (
-				7B04ACBA4522760CA66A5D4AFA498F81 /* Headers */,
-				038B428AD06C5A47FAF2BEFE16C6DC16 /* Sources */,
-				5E047F76604659BF1B2099B2C412AC93 /* Frameworks */,
-				895ED1B8779C1D82DF681CBFF67AC570 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Masonry;
-			productName = Masonry;
-			productReference = 1FFED36A657123030ABB700256D73F15 /* Masonry.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		C14FFE430CBCD6F0B4F42FB5FCB672A2 /* RGUIKit */ = {
@@ -651,7 +480,7 @@
 				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -659,11 +488,10 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = CB3BC1CC68EF93ABB75034E468D66D75 /* Products */;
+			productRefGroup = F9A2AE538EB6E8D5B3B4398374729CD0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				55AF53E6C77A10ED4985E04D74A8878E /* Masonry */,
 				2500CBD7DB215ED2F3915923708F8AE4 /* Pods-XJCustomSlider */,
 				C14FFE430CBCD6F0B4F42FB5FCB672A2 /* RGUIKit */,
 			);
@@ -671,7 +499,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		895ED1B8779C1D82DF681CBFF67AC570 /* Resources */ = {
+		1DF286AFE76A5E0CBE87AAB2F9AF5C27 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -685,34 +513,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F6B6F0D4D17BCB26DF572E8D8D7FF5EF /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		038B428AD06C5A47FAF2BEFE16C6DC16 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7BFF65958F014760B6AC4742824892EB /* MASCompositeConstraint.m in Sources */,
-				E8DD5D1D406150E1C80AD015271B6848 /* MASConstraint.m in Sources */,
-				78B2727EE5D693F58D019DB098005101 /* MASConstraintMaker.m in Sources */,
-				8539B851E01A58467BE49CA3FA77223C /* MASLayoutConstraint.m in Sources */,
-				1972E85F0FCD0F3EAF28ED7CD036286E /* Masonry-dummy.m in Sources */,
-				297A3627CF2F032CBFDC61D1A3786E63 /* MASViewAttribute.m in Sources */,
-				B7D645EC004610E8A581E532D28771EC /* MASViewConstraint.m in Sources */,
-				098630ECDB64ED7B89F5F687C82B4AC3 /* NSArray+MASAdditions.m in Sources */,
-				C0861ADB4C5FA30F4F9E051F7638A264 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
-				A35FBEEC7D088AEC05297E8292A32C77 /* View+MASAdditions.m in Sources */,
-				0967598607D521318F69D7D39D517B20 /* ViewController+MASAdditions.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		97C8111E7CD413E9DC4120F6FB1C6A0C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -755,38 +558,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FF12CA9DA7F738FD1F9100D15E129F67 /* Sources */ = {
+		FF914C57BA8EF55B35DC8B353EA24732 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				921D63B13055E0FC4A60ABE0BF2FBA1F /* Pods-XJCustomSlider-dummy.m in Sources */,
+				1B826FA04161D0606D9A3DE797B1810E /* Pods-XJCustomSlider-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2E6BAF882FC2F44245D1B5468E0F6E41 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Masonry;
-			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
-			targetProxy = 01336441105C65A80C7FB746155C352E /* PBXContainerItemProxy */;
-		};
-		3C26045E3FF08ABE302BC1C18E1132D4 /* PBXTargetDependency */ = {
+		4DA6F31C1D92288B00E5CA746C6DBC6E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = RGUIKit;
 			target = C14FFE430CBCD6F0B4F42FB5FCB672A2 /* RGUIKit */;
-			targetProxy = C5F61DF5DC1DDE7C631EF54C6FA05302 /* PBXContainerItemProxy */;
+			targetProxy = 810EA97D38886D21C8BD6F68733BE678 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		136B02390052F56EBBF000ABFA3A5C18 /* Release */ = {
+		13715DF44C32116185479EA6C45E91D2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 172BFD477E1BC2F27EFF5DEADB0D880A /* Pods-XJCustomSlider.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -798,7 +594,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-XJCustomSlider/Pods-XJCustomSlider-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -822,7 +618,7 @@
 		};
 		539609C533C5036FAAC59127A49ADC78 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7111EB2FA9A1E8362DB54076EFF1AB06 /* RGUIKit.release.xcconfig */;
+			baseConfigurationReference = 872D3659268D5154DEFE7DE8C4ABF2A3 /* RGUIKit.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -857,7 +653,7 @@
 		};
 		5B1E07A6E01F22FD850EED02EEFE35B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AFADDAE073F94DF1CDECDD8EDDD928EC /* RGUIKit.debug.xcconfig */;
+			baseConfigurationReference = 9C427AE474CC2ED6843824CA98016B58 /* RGUIKit.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -889,10 +685,11 @@
 			};
 			name = Debug;
 		};
-		933C252AC1697174177192BE69B419F9 /* Debug */ = {
+		7A8390B529CAF7B96F777838A7336453 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A380BE204DF32EE9E73F36467E193F47 /* Masonry.debug.xcconfig */;
+			baseConfigurationReference = C6650E088D7A587D1C69AF39CAC31C5B /* Pods-XJCustomSlider.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -902,28 +699,90 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-XJCustomSlider/Pods-XJCustomSlider-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
-				PRODUCT_MODULE_NAME = Masonry;
-				PRODUCT_NAME = Masonry;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XJCustomSlider/Pods-XJCustomSlider.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */ = {
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -974,7 +833,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -986,139 +845,6 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
-		};
-		A4DD2603913380D5BFF0C9D4C216B6B3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C6650E088D7A587D1C69AF39CAC31C5B /* Pods-XJCustomSlider.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-XJCustomSlider/Pods-XJCustomSlider-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-XJCustomSlider/Pods-XJCustomSlider.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		D1F20CA5AF74551DBEC539096B44760B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8FFA03CD231593AA195A82E9224CB654 /* Masonry.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
-				PRODUCT_MODULE_NAME = Masonry;
-				PRODUCT_NAME = Masonry;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		ECB437504DF805BD96CAABF97400B526 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 5.0;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -1135,26 +861,17 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */,
-				ECB437504DF805BD96CAABF97400B526 /* Release */,
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		87FD40BD683E3BD044AA4D1B5CA58652 /* Build configuration list for PBXNativeTarget "Masonry" */ = {
+		F7A156339C903183F7E91B7E11C45EAB /* Build configuration list for PBXNativeTarget "Pods-XJCustomSlider" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				933C252AC1697174177192BE69B419F9 /* Debug */,
-				D1F20CA5AF74551DBEC539096B44760B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A49AE221659DC8965135BACA03DD4EEB /* Build configuration list for PBXNativeTarget "Pods-XJCustomSlider" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A4DD2603913380D5BFF0C9D4C216B6B3 /* Debug */,
-				136B02390052F56EBBF000ABFA3A5C18 /* Release */,
+				7A8390B529CAF7B96F777838A7336453 /* Debug */,
+				13715DF44C32116185479EA6C45E91D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
