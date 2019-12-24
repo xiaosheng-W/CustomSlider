@@ -1,0 +1,20 @@
+PODS:
+  - Masonry (1.1.0)
+  - RGUIKit (1.1.16)
+
+DEPENDENCIES:
+  - Masonry
+  - RGUIKit
+
+SPEC REPOS:
+  trunk:
+    - Masonry
+    - RGUIKit
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  RGUIKit: afd812abe44580879f51529ab7d5cfd1d314ee89
+
+PODFILE CHECKSUM: a4374da882d98177432282192a45398f03e10ced
+
+COCOAPODS: 1.9.0.beta.1
