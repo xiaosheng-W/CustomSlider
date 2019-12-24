@@ -1,6 +1,0 @@
-framework module RGUIKit {
-  umbrella header "RGUIKit-umbrella.h"
-
-  export *
-  module * { export * }
-}
